@@ -19,3 +19,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.gradient-arrow {
+  background: linear-gradient(to right, #9f7aea, #4299e1);
+  width: 16px;
+  height: 16px;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  z-index: -1;
+}
