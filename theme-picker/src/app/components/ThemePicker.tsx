@@ -11,16 +11,16 @@ export const ThemePicker: React.FC = ({}) => {
   const [currentSelection, setCurrentSelection] =
     useState<IDESelection>("VS Code");
   const [_, setCurrentEmojiIndex] = useState(0);
-  const [isLoading, setLoading] = useState(true);
+  const [isLoading, setLoading] = useState(false);
 
   const jetBrainsLogo = "/jetbrains.svg";
   const vsCodeLogo = "/vscode.svg";
   const emojis = ["😀", "🎉", "🚀", "🌟", "🐱", "🍕", "🎨", "🌍", "🔥", "✨"];
 
-  const toggleSlider = () =>
-    setCurrentSelection(
-      currentSelection === "VS Code" ? "JetBrains" : "VS Code"
-    );
+  const toastBoxStyle =
+    currentSelection === "VS Code"
+      ? "relative bg-gradient-to-r from-purple-500 to-blue-500 text-white text-sm px-6 py-3 rounded-xl shadow-lg min-w-[50px] text-center"
+      : "relative bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white text-sm px-6 py-3 rounded-xl shadow-lg min-w-[50px] text-center";
 
   useEffect(() => {
     if (isLoading) {
@@ -33,15 +33,18 @@ export const ThemePicker: React.FC = ({}) => {
   }, [isLoading]);
 
   const handleLogoClick = () => {
-    toggleSlider();
+    setCurrentSelection(
+      currentSelection === "VS Code" ? "JetBrains" : "VS Code"
+    );
   };
 
-  const pickRandomTheme = () => {};
-
-  const toastBoxStyle =
-    currentSelection === "VS Code"
-      ? "relative bg-gradient-to-r from-purple-500 to-blue-500 text-white text-sm px-6 py-3 rounded-xl shadow-lg min-w-[50px] text-center"
-      : "relative bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white text-sm px-6 py-3 rounded-xl shadow-lg min-w-[50px] text-center";
+  const pickRandomTheme = () => {
+    // test
+    setLoading(true);
+    setInterval(() => {
+      setLoading(false);
+    }, 1000);
+  };
 
   return (
     <div className="relative flex flex-col items-center">
@@ -73,7 +76,7 @@ export const ThemePicker: React.FC = ({}) => {
 
       <button
         onClick={pickRandomTheme}
-        className="mt-8 px-4 py-2 text-white bg-purple-500 rounded-3xl hover:bg-purple-600 transition-colors"
+        className="mt-8 px-8 py-4 text-white bg-purple-500 rounded-3xl hover:bg-purple-600 transition-colors"
       >
         pick random theme
       </button>
