@@ -1,0 +1,1003 @@
+[
+    {},
+    {
+        "id": "99b17261-8f6e-45f0-9ad5-a69c6f509a4f",
+        "theme_name": "cpptools-themes",
+        "description": "UI Themes for C/C++ extension.",
+        "install_link": "",
+        "last_update": "2022-10-24T21:51:14.93Z",
+        "author": "ms-vscode",
+        "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+        "previewImage": ""
+    },
+    {
+        "id": "5db78037-f674-459f-a236-db622c427c5b",
+        "theme_name": "material-icon-theme",
+        "description": "Material Design Icons for Visual Studio Code",
+        "install_link": "",
+        "last_update": "2025-01-06T22:19:47.59Z",
+        "author": "PKief",
+        "publisherId": "f9e5bc2f-fea1-4075-917f-d83e01e69f56",
+        "previewImage": ""
+    },
+    {
+        "id": "9ccc1dd7-7ec4-4a46-bd4f-7d7b8b9d322a",
+        "theme_name": "vscode-icons",
+        "description": "Icons for Visual Studio Code",
+        "install_link": "",
+        "last_update": "2024-12-14T23:15:03.74Z",
+        "author": "vscode-icons-team",
+        "publisherId": "652ad61d-3a6a-48ca-ab1a-80dc8953b2b6",
+        "previewImage": ""
+    },
+    {
+        "id": "7328a705-91fc-49e6-8293-da6f112e482d",
+        "theme_name": "github-vscode-theme",
+        "description": "GitHub theme for VS Code",
+        "install_link": "",
+        "last_update": "2024-10-03T05:36:07.747Z",
+        "author": "GitHub",
+        "publisherId": "7c1c19cd-78eb-4dfb-8999-99caf7679002",
+        "previewImage": ""
+    },
+    {
+        "id": "40d39ce9-c381-47a0-80c8-a6661f731eab",
+        "theme_name": "PowerShell",
+        "description": "Develop PowerShell modules, commands and scripts in Visual Studio Code!",
+        "install_link": "",
+        "last_update": "2024-12-05T01:31:12.643Z",
+        "author": "ms-vscode",
+        "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+        "previewImage": ""
+    },
+    {
+        "id": "26a529c9-2654-4b95-a63f-02f6a52429e6",
+        "theme_name": "Material-theme",
+        "description": "Atom's iconic One Dark theme for Visual Studio Code",
+        "install_link": "",
+        "last_update": "2024-12-03T06:20:18.61Z",
+        "author": "zhuangtongfa",
+        "publisherId": "8ae75bda-ec22-4a17-9340-abf1a20beca9",
+        "previewImage": ""
+    },
+    {
+        "id": "4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1",
+        "theme_name": "theme-dracula",
+        "description": "The official Dracula Theme: a dark theme for many editors, shells, and more. \ud83e\udd87",
+        "install_link": "",
+        "last_update": "2024-07-17T12:56:35.033Z",
+        "author": "dracula-theme",
+        "publisherId": "fbb3d024-f8f2-460c-bdb5-99552f6d8c4b",
+        "previewImage": ""
+    },
+    {
+        "id": "9b2c953d-6ad4-46d1-b18e-7e5992d1d8a6",
+        "theme_name": "vscode-theme-onedark",
+        "description": "One Dark Theme based on Atom",
+        "install_link": "",
+        "last_update": "2022-10-08T14:12:57.923Z",
+        "author": "akamud",
+        "publisherId": "1a680e61-b64e-4eff-bbbb-2085b0618f52",
+        "previewImage": ""
+    },
+    {
+        "id": "24c48014-55a9-4725-89b9-775ef1ce2203",
+        "theme_name": "no-code",
+        "description": "No code is the best way to write secure and reliable applications. Write nothing; deploy nowhere. ",
+        "install_link": "",
+        "last_update": "2020-12-23T04:21:17.653Z",
+        "author": "writenothing",
+        "publisherId": "c6ebf5a9-8c86-4dda-a385-2bb79c1c63ff",
+        "previewImage": ""
+    },
+    {
+        "id": "6959958f-be4d-42c4-8aa4-dc2c2f086b0a",
+        "theme_name": "vsc-material-theme-icons",
+        "description": "Material Theme Icons, the most epic icons theme for Visual Studio Code and Material Theme.",
+        "install_link": "",
+        "last_update": "2025-01-03T13:42:46.37Z",
+        "author": "Equinusocio",
+        "publisherId": "3b9d55d2-da9e-415a-9bea-8d6bc07147d8",
+        "previewImage": ""
+    },
+    {
+        "id": "45bfc9eb-5e03-487f-bffe-315fa6881d6a",
+        "theme_name": "vsc-material-theme",
+        "description": "The most epic theme now for Visual Studio Code",
+        "install_link": "",
+        "last_update": "2024-11-08T21:14:27.71Z",
+        "author": "Equinusocio",
+        "publisherId": "3b9d55d2-da9e-415a-9bea-8d6bc07147d8",
+        "previewImage": ""
+    },
+    {
+        "id": "bf8aa94a-4051-42fe-9bd1-2becad466fe7",
+        "theme_name": "vsc-community-material-theme",
+        "description": "The official community maintained Material Theme with 'legacy' color schemes you love!",
+        "install_link": "",
+        "last_update": "2024-06-12T07:56:46.26Z",
+        "author": "Equinusocio",
+        "publisherId": "3b9d55d2-da9e-415a-9bea-8d6bc07147d8",
+        "previewImage": ""
+    },
+    {
+        "id": "f5d7ffda-c1d6-4070-ba80-803c705a1ee6",
+        "theme_name": "theme-monokai-pro-vscode",
+        "description": "\u2728 Professional dark & light theme + icon pack, from the author of the original Monokai color scheme.",
+        "install_link": "",
+        "last_update": "2024-12-04T14:29:40.337Z",
+        "author": "monokai",
+        "publisherId": "f1aa9b60-e034-4838-a0dc-4a6a074cf48e",
+        "previewImage": ""
+    },
+    {
+        "id": "fd6d3dc6-b307-4589-82a6-78e2afec3d77",
+        "theme_name": "winteriscoming",
+        "description": "Preferred dark/light themes by John Papa",
+        "install_link": "",
+        "last_update": "2021-03-08T15:25:01.897Z",
+        "author": "johnpapa",
+        "publisherId": "4434843a-4ebf-4f44-84f5-4176380c492d",
+        "previewImage": ""
+    },
+    {
+        "id": "e58f546c-babc-455f-a265-ba40dbd140d4",
+        "theme_name": "night-owl",
+        "description": "A VS Code theme for the night owls out there. Now introducing Light Owl theme for daytime usage. Decisions were based on meaningful contrast for reading comprehension and for optimal razzle dazzle. \u2728",
+        "install_link": "",
+        "last_update": "2024-12-31T21:24:56.957Z",
+        "author": "sdras",
+        "publisherId": "addae8ad-0041-44f2-a2d4-cbebe4912d50",
+        "previewImage": ""
+    },
+    {
+        "id": "5178733e-4b02-4829-95c5-1ce970847c23",
+        "theme_name": "ayu",
+        "description": "A simple theme with bright colors and comes in three versions \u2014 dark, light and mirage for all day long comfortable work.",
+        "install_link": "",
+        "last_update": "2021-09-06T11:36:25.08Z",
+        "author": "teabyii",
+        "publisherId": "8a0aaf7f-34ab-48b1-9384-c15c80413d57",
+        "previewImage": ""
+    },
+    {
+        "id": "b027c4b2-25ad-46db-b574-05dae3b2dc92",
+        "theme_name": "one-monokai",
+        "description": "A cross between Monokai and One Dark theme",
+        "install_link": "",
+        "last_update": "2024-08-20T01:20:30.797Z",
+        "author": "azemoh",
+        "publisherId": "25cdca6a-b422-4806-9041-a44a52d1a7d5",
+        "previewImage": ""
+    },
+    {
+        "id": "e5fd2b56-1637-4d4f-8252-6c9d416f9a28",
+        "theme_name": "synthwave-vscode",
+        "description": "A Synthwave-inspired colour theme to satisfy your neon dreams",
+        "install_link": "",
+        "last_update": "2024-10-31T10:21:56.73Z",
+        "author": "RobbOwen",
+        "publisherId": "561257c5-26a1-41f1-944f-17639b7b9c87",
+        "previewImage": ""
+    },
+    {
+        "id": "7f147721-ec06-4043-9e37-c9ffbecbccd1",
+        "theme_name": "material-palenight-theme",
+        "description": "An elegant and juicy material-inspired theme for Visual Studio Code.",
+        "install_link": "",
+        "last_update": "2024-10-20T03:32:42.14Z",
+        "author": "whizkydee",
+        "publisherId": "942a68c7-9bce-4e1c-9bb0-828710897a61",
+        "previewImage": ""
+    },
+    {
+        "id": "431aa1a8-74f4-43d5-a83b-f4960510da5f",
+        "theme_name": "shades-of-purple",
+        "description": "\ud83e\udd84 A professional theme suite with hand-picked & bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course.",
+        "install_link": "",
+        "last_update": "2024-03-21T06:55:14.093Z",
+        "author": "ahmadawais",
+        "publisherId": "530c7464-efca-4776-9142-c6f0aeb4084e",
+        "previewImage": ""
+    },
+    {
+        "id": "829a192d-496c-44ac-87f3-0a84ce36a853",
+        "theme_name": "vscode-great-icons",
+        "description": "A big pack of icons (200+) for your files.",
+        "install_link": "",
+        "last_update": "2024-11-20T01:30:27.947Z",
+        "author": "emmanuelbeziat",
+        "publisherId": "c6e135ee-f6a2-45cb-b782-fd4de23acc84",
+        "previewImage": ""
+    },
+    {
+        "id": "1cac7443-911e-48b9-8341-49f3880c288a",
+        "theme_name": "tokyo-night",
+        "description": "A clean Visual Studio Code theme that celebrates the lights of Downtown Tokyo at night.",
+        "install_link": "",
+        "last_update": "2024-07-11T16:28:48.787Z",
+        "author": "enkia",
+        "publisherId": "745c7670-02e7-4a27-b662-e1b5719f2ba7",
+        "previewImage": ""
+    },
+    {
+        "id": "fb374ce1-5343-46c8-a425-900fdad15523",
+        "theme_name": "theme-cobalt2",
+        "description": "\ud83d\udd25 Official theme by Wes Bos.",
+        "install_link": "",
+        "last_update": "2023-09-18T16:19:52.623Z",
+        "author": "wesbos",
+        "publisherId": "ef56c328-1595-4d1e-9e0b-43d926331358",
+        "previewImage": ""
+    },
+    {
+        "id": "43335a8d-5929-408b-874a-65f08362642c",
+        "theme_name": "file-icons",
+        "description": "File-specific icons in VSCode for improved visual grepping.",
+        "install_link": "",
+        "last_update": "2023-07-04T15:14:56.617Z",
+        "author": "file-icons",
+        "publisherId": "bdf69065-5f25-4de9-9ff1-270dd0b6c704",
+        "previewImage": ""
+    },
+    {
+        "id": "98eb0f27-c79a-4ef5-b3ea-0554b885bfc5",
+        "theme_name": "andromeda",
+        "description": "Dark theme with a taste of the universe",
+        "install_link": "",
+        "last_update": "2024-03-13T01:41:43.327Z",
+        "author": "EliverLara",
+        "publisherId": "2a5c8f8b-7e1b-46ee-aa0e-13ee5141f7a6",
+        "previewImage": ""
+    },
+    {
+        "id": "41aac8eb-b4f4-408d-9708-320d033a17f8",
+        "theme_name": "fluent-icons",
+        "description": "Fluent product icons for Visual Studio Code",
+        "install_link": "",
+        "last_update": "2024-10-25T22:34:15.75Z",
+        "author": "miguelsolorio",
+        "publisherId": "f1903af7-ceb4-410f-b269-cd514b33bea2",
+        "previewImage": ""
+    },
+    {
+        "id": "ee33fd31-7bb4-4252-8368-fdd5bcd94cf8",
+        "theme_name": "vscode-theme-onelight",
+        "description": "One Light Theme based on Atom",
+        "install_link": "",
+        "last_update": "2022-10-08T14:12:49.043Z",
+        "author": "akamud",
+        "publisherId": "1a680e61-b64e-4eff-bbbb-2085b0618f52",
+        "previewImage": ""
+    },
+    {
+        "id": "a27ff63d-ff11-478d-b1ab-19aa1ef19882",
+        "theme_name": "vscode-power-mode",
+        "description": "Your code is powerful, unleash it! The extension made popular by Code in the Dark has finally made its way to VS Code.",
+        "install_link": "",
+        "last_update": "2022-03-14T17:20:30.97Z",
+        "author": "hoovercj",
+        "publisherId": "9ce6dd66-61b2-41ff-8680-39cba0813c3d",
+        "previewImage": ""
+    },
+    {
+        "id": "d4e2a48f-0b88-4540-92c5-a4ab4dd2c813",
+        "theme_name": "noctis",
+        "description": "Noctis is a collection of light & dark themes with a well balanced blend of warm and cold colors",
+        "install_link": "",
+        "last_update": "2024-03-27T06:45:10.9Z",
+        "author": "liviuschera",
+        "publisherId": "676e5383-8870-48a9-80bb-67ae23e9228c",
+        "previewImage": ""
+    },
+    {
+        "id": "1d57ed17-b4be-4755-9a69-073a6e6065bc",
+        "theme_name": "theme",
+        "description": "A Visual Studio Code theme  for those of us who like to code late into the night",
+        "install_link": "",
+        "last_update": "2023-09-27T22:19:17.1Z",
+        "author": "tal7aouy",
+        "publisherId": "bc6e1246-1061-4dec-a2c3-91280d192974",
+        "previewImage": ""
+    },
+    {
+        "id": "9764fb1f-aa45-4e65-a18e-705b3b00761c",
+        "theme_name": "theme-panda",
+        "description": "Panda Theme for Visual Studio Code.",
+        "install_link": "",
+        "last_update": "2018-06-30T16:32:40.783Z",
+        "author": "tinkertrain",
+        "publisherId": "75da7fb3-a5a8-4f27-8083-e61b15b7b2a5",
+        "previewImage": ""
+    },
+    {
+        "id": "6f35c257-7fd5-4bc2-9cd1-01976589c17a",
+        "theme_name": "nord-visual-studio-code",
+        "description": "An arctic, north-bluish clean and elegant Visual Studio Code theme.",
+        "install_link": "",
+        "last_update": "2021-09-25T20:46:35.723Z",
+        "author": "arcticicestudio",
+        "publisherId": "d6e09771-ef61-4944-9f28-44e338818618",
+        "previewImage": ""
+    },
+    {
+        "id": "d1818e93-bccc-4812-8b8b-37aabc5a7a94",
+        "theme_name": "beardedtheme",
+        "description": "The theme with a long beard.",
+        "install_link": "",
+        "last_update": "2024-08-02T00:46:17.263Z",
+        "author": "BeardedBear",
+        "publisherId": "bfe8429d-0105-48ef-831f-69e781aeb77c",
+        "previewImage": ""
+    },
+    {
+        "id": "e96f7482-8e97-4155-8a7c-ad5fab4d8b2d",
+        "theme_name": "theme-material-theme",
+        "description": "Port of the Material Theme for Sublime Text.",
+        "install_link": "",
+        "last_update": "2016-11-27T04:03:55.567Z",
+        "author": "jprestidge",
+        "publisherId": "29a1eb27-2838-48b9-9cb4-a58eca5cee77",
+        "previewImage": ""
+    },
+    {
+        "id": "43843a91-c394-4d38-8afe-c1403a4399f8",
+        "theme_name": "vscode-presentation-mode",
+        "description": "Bring Presentation Mode to VS Code",
+        "install_link": "",
+        "last_update": "2022-09-05T23:38:49.577Z",
+        "author": "CS50",
+        "publisherId": "665be722-37c1-4a6e-b62e-7dd0e12b5769",
+        "previewImage": ""
+    },
+    {
+        "id": "e0ee11e7-aa20-4e86-a3b9-2cd7d14fed93",
+        "theme_name": "vscode-icontheme-nomo-dark",
+        "description": "Nomo Dark Icon Theme",
+        "install_link": "",
+        "last_update": "2018-07-24T16:03:12.637Z",
+        "author": "be5invis",
+        "publisherId": "8c148d69-cbc6-480b-bd8b-a42715926324",
+        "previewImage": ""
+    },
+    {
+        "id": "1b160753-ae5e-42bb-82ad-d115ce5c10f4",
+        "theme_name": "vscode-custom-css",
+        "description": "Custom CSS and JS for Visual Studio Code",
+        "install_link": "",
+        "last_update": "2024-10-12T00:53:32.197Z",
+        "author": "be5invis",
+        "publisherId": "8c148d69-cbc6-480b-bd8b-a42715926324",
+        "previewImage": ""
+    },
+    {
+        "id": "434bbf64-cfdd-4ff4-84e0-b0b9a640060a",
+        "theme_name": "theme-omni",
+        "description": "Dark theme created by Rocketseat \ud83d\ude80",
+        "install_link": "",
+        "last_update": "2021-11-03T16:51:45.44Z",
+        "author": "rocketseat",
+        "publisherId": "b0d03dc3-1ed9-44ec-8714-26521a607fb3",
+        "previewImage": ""
+    },
+    {
+        "id": "ec2271c0-9d6d-44c5-93e5-7e8cda744f21",
+        "theme_name": "vscode-theme-darcula",
+        "description": "A theme extension for VS Code based on Darcula theme from Jetbrains IDEs",
+        "install_link": "",
+        "last_update": "2020-11-23T07:43:39.847Z",
+        "author": "rokoroku",
+        "publisherId": "99720f95-61af-4d5e-9133-3cc10f4f30ea",
+        "previewImage": ""
+    },
+    {
+        "id": "a6761011-549f-4561-ae6d-cc9c7a040710",
+        "theme_name": "eva-theme",
+        "description": "A comfortable and semantic theme.",
+        "install_link": "",
+        "last_update": "2024-11-19T07:19:31.61Z",
+        "author": "fisheva",
+        "publisherId": "ff69a8bd-aad3-463d-9859-8ecfb1484873",
+        "previewImage": ""
+    },
+    {
+        "id": "c6d564c4-ca8c-45ba-abf6-c85f2d1468d8",
+        "theme_name": "gruvbox",
+        "description": "Gruvbox Theme",
+        "install_link": "",
+        "last_update": "2024-07-23T00:42:12.977Z",
+        "author": "jdinhlife",
+        "publisherId": "571210a8-f372-43c2-8b5a-018868d4ac96",
+        "previewImage": ""
+    },
+    {
+        "id": "dcd805cf-7bf1-458e-8739-26a6077c784f",
+        "theme_name": "icons",
+        "description": "Icons for Visual Studio Code.",
+        "install_link": "",
+        "last_update": "2023-12-20T22:15:35.703Z",
+        "author": "tal7aouy",
+        "publisherId": "bc6e1246-1061-4dec-a2c3-91280d192974",
+        "previewImage": ""
+    },
+    {
+        "id": "ff7b0247-07d3-4102-8b68-0175a12a51aa",
+        "theme_name": "linux-themes",
+        "description": "Color themes designed to match the popular Ubuntu themes.",
+        "install_link": "",
+        "last_update": "2017-09-21T22:02:14.09Z",
+        "author": "SolarLiner",
+        "publisherId": "2bd479ce-6e68-4291-a283-5ad617948f94",
+        "previewImage": ""
+    },
+    {
+        "id": "6b99015e-561b-4192-8b83-b2120a523567",
+        "theme_name": "vue-theme",
+        "description": "Theme for Visual Studio Code inspired by javascript, with support for more popular languages and a perfect harmony of colors",
+        "install_link": "",
+        "last_update": "2022-10-14T08:41:21.453Z",
+        "author": "mariorodeghiero",
+        "publisherId": "8b089f94-0ff6-439a-b4d6-2ba79133d533",
+        "previewImage": ""
+    },
+    {
+        "id": "865f89be-46b5-42c5-94c7-1f7c8aca2bbc",
+        "theme_name": "jellyfish",
+        "description": "JellyFish: Theme your code editor will love.",
+        "install_link": "",
+        "last_update": "2022-02-08T17:55:21.517Z",
+        "author": "PawelBorkar",
+        "publisherId": "fb804388-53a8-4995-b454-3ae168e27904",
+        "previewImage": ""
+    },
+    {
+        "id": "69264e4d-cd3b-468a-8f2b-e69673c7d864",
+        "theme_name": "catppuccin-vsc",
+        "description": "\ud83e\udd8c Soothing pastel theme for VSCode",
+        "install_link": "",
+        "last_update": "2024-11-08T23:06:39.47Z",
+        "author": "Catppuccin",
+        "publisherId": "e7d2ed61-53e0-4dd4-afbe-f536c3bb4316",
+        "previewImage": ""
+    },
+    {
+        "id": "430af273-c0cc-4565-a417-6ee1991bbf4c",
+        "theme_name": "ruby-extensions-pack",
+        "description": "An opinionated and auto-configured set of extensions for Ruby development",
+        "install_link": "",
+        "last_update": "2024-09-18T14:51:52.027Z",
+        "author": "Shopify",
+        "publisherId": "1166cb6d-7867-45ca-9a40-f535976a40be",
+        "previewImage": ""
+    },
+    {
+        "id": "9001c3f8-94bf-484d-92fc-07f2fd03ff5e",
+        "theme_name": "Theme-MarkdownKit",
+        "description": "Theme Kit for VS Code optimized for Markdown. Based on the TextMate themes.",
+        "install_link": "",
+        "last_update": "2017-04-04T00:02:01.243Z",
+        "author": "ms-vscode",
+        "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+        "previewImage": ""
+    },
+    {
+        "id": "99bb71cc-b8a5-43bf-b6a8-371f9f0f4ca3",
+        "theme_name": "vscode-monokai-night",
+        "description": "A complete, dark and minimalistic Monokai-inspired theme.",
+        "install_link": "",
+        "last_update": "2024-03-19T19:03:53.26Z",
+        "author": "fabiospampinato",
+        "publisherId": "4288bdb9-145e-438b-ab6b-4a6839ee9c6f",
+        "previewImage": ""
+    },
+    {
+        "id": "9a2c5b90-283b-4454-87b6-96c05146d7ba",
+        "theme_name": "2077-theme",
+        "description": "Cyberpunk 2077 inspired theme",
+        "install_link": "",
+        "last_update": "2021-07-24T16:33:19.347Z",
+        "author": "Endormi",
+        "publisherId": "44f5b8f1-6396-4d9f-9305-364de5bf3798",
+        "previewImage": ""
+    },
+    {
+        "id": "7f4f553c-204c-42fe-9b4d-7a3f11f7335b",
+        "theme_name": "glassit",
+        "description": "VS Code Extension to set window to transparent on Windows and Linux platforms.",
+        "install_link": "",
+        "last_update": "2023-02-17T11:32:05.6Z",
+        "author": "s-nlf-fh",
+        "publisherId": "f39c25eb-2c51-4821-97b3-8718f85c8e5f",
+        "previewImage": ""
+    },
+    {
+        "id": "f797dacd-4e80-4f33-8b63-d665c0956013",
+        "theme_name": "material-product-icons",
+        "description": "Product Icon Theme with Material Icons for VS Code",
+        "install_link": "",
+        "last_update": "2024-07-13T08:50:37.747Z",
+        "author": "PKief",
+        "publisherId": "f9e5bc2f-fea1-4075-917f-d83e01e69f56",
+        "previewImage": ""
+    },
+    {
+        "id": "3acfcc8d-a050-4675-8e49-cdc9f8945404",
+        "theme_name": "theme-oceanicnext",
+        "description": "Oceanic Next theme for VSCode + dimmed bg version for better looking UI",
+        "install_link": "",
+        "last_update": "2016-01-26T09:59:08.59Z",
+        "author": "naumovs",
+        "publisherId": "e9a76d04-24d4-44eb-a202-964f71acf59e",
+        "previewImage": ""
+    },
+    {
+        "id": "86fa6593-3f3e-484c-b7cd-00ba7c91c23f",
+        "theme_name": "theme-dracula-at-night",
+        "description": "Dracula At Night \u2014\u00a0A Dracula fork, with a darker flavor",
+        "install_link": "",
+        "last_update": "2022-01-07T14:02:41.687Z",
+        "author": "bceskavich",
+        "publisherId": "72f2d502-2860-40d3-8a46-47cbf8a5d495",
+        "previewImage": ""
+    },
+    {
+        "id": "f7b574f6-383c-42e1-96bd-0ce1dcc3bf5b",
+        "theme_name": "rainglow",
+        "description": "Rainglow color themes by Dayle Rees",
+        "install_link": "",
+        "last_update": "2018-01-08T00:11:56.61Z",
+        "author": "daylerees",
+        "publisherId": "ee34d6d1-aa13-4263-baea-a3e63a7e5100",
+        "previewImage": ""
+    },
+    {
+        "id": "ae903c6f-d094-48b1-918b-18947348fe44",
+        "theme_name": "atom-material-theme",
+        "description": "Atom Material Theme - based on Atom-Material-Ui and Atom-Material-Syntax",
+        "install_link": "",
+        "last_update": "2023-02-25T19:41:40.25Z",
+        "author": "tobiasalthoff",
+        "publisherId": "2ddb8147-6dc5-4401-924f-dad833711486",
+        "previewImage": ""
+    },
+    {
+        "id": "d91d5f34-af1f-4d4b-99d3-78f2f36aac63",
+        "theme_name": "slack-theme",
+        "description": "Color scheme inspired by Slack's default themes",
+        "install_link": "",
+        "last_update": "2021-06-12T21:40:11.733Z",
+        "author": "felipe-mendes",
+        "publisherId": "243bb916-9b11-4dcf-8148-cc8e4edfc65c",
+        "previewImage": ""
+    },
+    {
+        "id": "d0db9e58-8cdf-49c5-87bf-02f037e10bb0",
+        "theme_name": "github-plus-theme",
+        "description": "A GitHub inspired color theme for VSCode code and interface!",
+        "install_link": "",
+        "last_update": "2024-12-18T18:03:18.15Z",
+        "author": "thenikso",
+        "publisherId": "e748af4a-d17d-4c3b-a7e1-2592de9a7e09",
+        "previewImage": ""
+    },
+    {
+        "id": "cb54c3b9-1c64-4c4a-8b5a-887270ffe4b6",
+        "theme_name": "symbols",
+        "description": "A simple file icon theme for VS Code",
+        "install_link": "",
+        "last_update": "2025-01-03T18:11:20.95Z",
+        "author": "miguelsolorio",
+        "publisherId": "f1903af7-ceb4-410f-b269-cd514b33bea2",
+        "previewImage": ""
+    },
+    {
+        "id": "fcf0848c-96b3-487a-a655-01aed955a594",
+        "theme_name": "horizon-theme-vscode",
+        "description": "A beautifully warm dual theme for Visual Studio Code",
+        "install_link": "",
+        "last_update": "2021-08-15T20:09:39.283Z",
+        "author": "jolaleye",
+        "publisherId": "25219af3-1e18-4473-9b20-a231f88d9800",
+        "previewImage": ""
+    },
+    {
+        "id": "c4e31168-d200-4020-ae9e-1aa7b76d2c52",
+        "theme_name": "dark-plus-material",
+        "description": "The default Dark+ theme, using Material's color palette",
+        "install_link": "",
+        "last_update": "2023-11-03T05:40:21.833Z",
+        "author": "vangware",
+        "publisherId": "01dc48a2-7c38-46de-8f79-6ce4891973fa",
+        "previewImage": ""
+    },
+    {
+        "id": "13bc2ec0-b396-4d55-a0e3-45bec5917fc3",
+        "theme_name": "theme-bluloco-dark",
+        "description": "A fancy but yet sophisticated dark designer color scheme / theme.",
+        "install_link": "",
+        "last_update": "2023-01-03T08:23:23.54Z",
+        "author": "uloco",
+        "publisherId": "97df0873-3318-4b23-927e-f0aa91a951ba",
+        "previewImage": ""
+    },
+    {
+        "id": "8bfd87ec-2032-4a0e-a630-71eed81a027e",
+        "theme_name": "vscode-simpler-icons",
+        "description": "A fork from vscode-great-icons. With fewer different icons and some angular icons. Mainly created for personnal use.",
+        "install_link": "",
+        "last_update": "2018-08-22T12:41:32.98Z",
+        "author": "davidbabel",
+        "publisherId": "62432f19-b99c-4558-a38d-08cf2e088cac",
+        "previewImage": ""
+    },
+    {
+        "id": "ee960969-f319-4daf-b7a0-a4bc8982cb8a",
+        "theme_name": "theme-bluloco-light",
+        "description": "A fancy but yet sophisticated light designer color scheme / theme.",
+        "install_link": "",
+        "last_update": "2022-12-26T16:06:29.25Z",
+        "author": "uloco",
+        "publisherId": "97df0873-3318-4b23-927e-f0aa91a951ba",
+        "previewImage": ""
+    },
+    {
+        "id": "ce17e8d8-ef8f-4934-842d-771b45d99721",
+        "theme_name": "doki-theme",
+        "description": "Cute anime character themes!",
+        "install_link": "",
+        "last_update": "2024-10-06T05:45:27.38Z",
+        "author": "unthrottled",
+        "publisherId": "19dd12ae-5b5c-4376-b809-35fbae0e4396",
+        "previewImage": ""
+    },
+    {
+        "id": "975d187d-7d95-4292-92ef-ad9e8f083ca3",
+        "theme_name": "electron",
+        "description": "Dark Color Theme based on Electron Highlighter for Atom",
+        "install_link": "",
+        "last_update": "2021-11-06T11:12:26.887Z",
+        "author": "kuscamara",
+        "publisherId": "934ff47e-6de5-427a-b4b6-1a45aad633f7",
+        "previewImage": ""
+    },
+    {
+        "id": "e9e7f567-5669-4c9c-a2db-df05d6cf28ed",
+        "theme_name": "min-theme",
+        "description": "A minimal theme that comes in dark and light.",
+        "install_link": "",
+        "last_update": "2021-07-15T23:49:13.233Z",
+        "author": "miguelsolorio",
+        "publisherId": "f1903af7-ceb4-410f-b269-cd514b33bea2",
+        "previewImage": ""
+    },
+    {
+        "id": "ffc5b1ef-b383-414d-a362-0886a529251f",
+        "theme_name": "easy-icons",
+        "description": "A simple icon pack, made to be easy to customise",
+        "install_link": "",
+        "last_update": "2016-12-18T07:14:03.107Z",
+        "author": "jamesmaj",
+        "publisherId": "d6da5b38-8dbe-4899-b658-720f76b3c4e2",
+        "previewImage": ""
+    },
+    {
+        "id": "0f74f457-2be2-484d-8569-0eaab1fe38d7",
+        "theme_name": "copilot-theme",
+        "description": "A VSCode implementation of the theme displayed on Github Copilot website.",
+        "install_link": "",
+        "last_update": "2023-03-15T18:07:28.573Z",
+        "author": "BenjaminBenais",
+        "publisherId": "282b1298-006e-45b3-ab0f-64116429c9a8",
+        "previewImage": ""
+    },
+    {
+        "id": "a37a3289-9175-4409-968e-a73e43095912",
+        "theme_name": "aura-theme",
+        "description": "A beautiful dark theme for Visual Studio Code",
+        "install_link": "",
+        "last_update": "2022-02-19T16:48:52.817Z",
+        "author": "DaltonMenezes",
+        "publisherId": "5f5fe9b3-aeed-4ae4-a427-c8d833b5a052",
+        "previewImage": ""
+    },
+    {
+        "id": "fa63aa30-e63a-48b1-876d-562a57da717f",
+        "theme_name": "eppz-code",
+        "description": "Carefully designed colors with meanings.",
+        "install_link": "",
+        "last_update": "2020-07-23T22:36:19.803Z",
+        "author": "eppz",
+        "publisherId": "585f5df3-1975-4515-9767-fdae8027b21f",
+        "previewImage": ""
+    },
+    {
+        "id": "d2ef4ecf-344b-4514-abc4-6d4eb2b6a33c",
+        "theme_name": "cyberpunk",
+        "description": "A crazy cyberpunk theme",
+        "install_link": "",
+        "last_update": "2021-08-16T20:04:07.147Z",
+        "author": "max-SS",
+        "publisherId": "55b5be4e-553d-4035-b421-3cd6baea3744",
+        "previewImage": ""
+    },
+    {
+        "id": "cc1b9e15-8d4e-43ed-8a31-b81683af6bc4",
+        "theme_name": "theme-onedark",
+        "description": "One Dark Theme based on Atom's One Dark Theme",
+        "install_link": "",
+        "last_update": "2020-10-16T07:59:46.117Z",
+        "author": "azemoh",
+        "publisherId": "25cdca6a-b422-4806-9041-a44a52d1a7d5",
+        "previewImage": ""
+    },
+    {
+        "id": "3397d2da-b0a8-4880-9e63-40d3109d5d14",
+        "theme_name": "Theme-MaterialKit",
+        "description": "Material themes for VS Code. Based on the TextMate themes.",
+        "install_link": "",
+        "last_update": "2017-04-04T00:02:09.04Z",
+        "author": "ms-vscode",
+        "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+        "previewImage": ""
+    },
+    {
+        "id": "6bfab4b0-9e4f-4143-9cc2-2cb359d841d8",
+        "theme_name": "Theme-FlatlandMonokai",
+        "description": "Flatland Monokai Theme for VS Code based on the TextMate themes.",
+        "install_link": "",
+        "last_update": "2019-10-16T03:38:40.223Z",
+        "author": "gerane",
+        "publisherId": "a5c25faf-bf60-4941-81b9-9a852b96c5fb",
+        "previewImage": ""
+    },
+    {
+        "id": "1256df07-e7c0-4e17-bd23-96b617cf21bc",
+        "theme_name": "bunker",
+        "description": "23 colorful and meticulous dark theme and 2 Icons pack. 2 themes for Linux",
+        "install_link": "",
+        "last_update": "2017-09-07T21:15:01.973Z",
+        "author": "sldobri",
+        "publisherId": "688471b5-3365-4cd5-8597-783c039d84e3",
+        "previewImage": ""
+    },
+    {
+        "id": "b84ed643-ec7d-49cc-a514-3ce104ed777f",
+        "theme_name": "vscode-theme-github-light",
+        "description": "Try this theme if others don't meet your needs.",
+        "install_link": "",
+        "last_update": "2020-06-25T09:32:34.18Z",
+        "author": "Hyzeta",
+        "publisherId": "18f3a989-6d93-420d-a045-baf7651c8552",
+        "previewImage": ""
+    },
+    {
+        "id": "235f4502-e288-45b4-a36c-3c0825d81e1b",
+        "theme_name": "helium-icon-theme",
+        "description": "Helium and Material Design Icons for Visual Studio Code",
+        "install_link": "",
+        "last_update": "2019-10-06T18:55:37.953Z",
+        "author": "helgardrichard",
+        "publisherId": "055cb7fd-084e-4bd7-ae9e-985d9155760d",
+        "previewImage": ""
+    },
+    {
+        "id": "ad4ee4d7-9d78-49e4-801e-b2fef4eaff6e",
+        "theme_name": "macos-modern-theme",
+        "description": "MacOS Modern is a theme pack styled to match native MacOS as closely as possible. Use recommended settings in the README.md for best results.",
+        "install_link": "",
+        "last_update": "2023-04-10T20:40:19.92Z",
+        "author": "davidbwaters",
+        "publisherId": "b79137a4-e464-40ad-8b3b-1ba537b73a00",
+        "previewImage": ""
+    },
+    {
+        "id": "15de929b-c739-49db-86bc-b968cc6b7a5b",
+        "theme_name": "theme-monokai-dark-soda",
+        "description": "A dark theme with bright colors",
+        "install_link": "",
+        "last_update": "2023-04-10T13:29:39.563Z",
+        "author": "AdamCaviness",
+        "publisherId": "de925631-f87c-4d68-a8d8-4dde56bc19d2",
+        "previewImage": ""
+    },
+    {
+        "id": "880475da-a140-4fc5-a99f-6d1210d88559",
+        "theme_name": "PowerShell-Preview",
+        "description": "(Preview) Develop PowerShell modules, commands and scripts in Visual Studio Code!",
+        "install_link": "",
+        "last_update": "2023-07-12T16:11:16.903Z",
+        "author": "ms-vscode",
+        "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+        "previewImage": ""
+    },
+    {
+        "id": "9512804a-4de2-4348-9387-3c04e8c7876e",
+        "theme_name": "mayukaithemevsc",
+        "description": "Dark theme based on mixing swatch of Ayu Theme, Andromeda Theme, Monokai, Material Colors, Original Gruvbox Darktooth Colors, and Dracula Colors.",
+        "install_link": "",
+        "last_update": "2024-08-24T13:48:13.87Z",
+        "author": "GulajavaMinistudio",
+        "publisherId": "af362643-348b-4f74-a073-7152adfac622",
+        "previewImage": ""
+    },
+    {
+        "id": "53c3207b-73df-433b-90ad-785b5023f403",
+        "theme_name": "vscode-icons-mac",
+        "description": "Icons for Visual Studio Code (with classic mac folder icon)",
+        "install_link": "",
+        "last_update": "2019-08-02T03:52:48.643Z",
+        "author": "wayou",
+        "publisherId": "47daa402-5396-4346-b7bd-62494d6d63ec",
+        "previewImage": ""
+    },
+    {
+        "id": "da69820f-32f2-49c6-915b-aa8e49455529",
+        "theme_name": "vscode-vibrancy-continued",
+        "description": "Vibrancy Effect for Visual Studio Code",
+        "install_link": "",
+        "last_update": "2024-12-23T10:36:22.147Z",
+        "author": "illixion",
+        "publisherId": "959bc563-e508-41c8-b638-4244ffb346cb",
+        "previewImage": ""
+    },
+    {
+        "id": "23d65a8c-fcd4-4897-86da-7fe55088e2c6",
+        "theme_name": "vscode-simple-icons",
+        "description": "An icon theme that tries to be simple",
+        "install_link": "",
+        "last_update": "2021-11-06T13:44:14.85Z",
+        "author": "LaurentTreguier",
+        "publisherId": "08f24380-f487-49dd-ba4a-ea7bc7bda282",
+        "previewImage": ""
+    },
+    {
+        "id": "1b7bdcac-09ba-421c-bdde-081928177de7",
+        "theme_name": "beardedicons",
+        "description": "The icons with a long beard.",
+        "install_link": "",
+        "last_update": "2024-02-18T17:16:48.793Z",
+        "author": "BeardedBear",
+        "publisherId": "bfe8429d-0105-48ef-831f-69e781aeb77c",
+        "previewImage": ""
+    },
+    {
+        "id": "9af62ee3-0097-4b7b-891a-4a94eb3e1009",
+        "theme_name": "city-lights-theme",
+        "description": "The City Lights Color Theme is a gorgeous dark color theme designed with focus in mind.",
+        "install_link": "",
+        "last_update": "2024-02-22T21:27:17.56Z",
+        "author": "Yummygum",
+        "publisherId": "e3dfdd72-432a-4f16-bac9-f33b77077cdc",
+        "previewImage": ""
+    },
+    {
+        "id": "d9437be1-e21c-4e9a-9548-e63650468296",
+        "theme_name": "gruvbox-material",
+        "description": "Gruvbox with Material Palette",
+        "install_link": "",
+        "last_update": "2022-12-13T09:00:55.533Z",
+        "author": "sainnhe",
+        "publisherId": "cd5355a7-bbfb-4a47-8f70-727aed458bc8",
+        "previewImage": ""
+    },
+    {
+        "id": "344c4c0e-58d1-4c96-a8ec-7332addc037c",
+        "theme_name": "vscode-duotone-dark",
+        "description": "DuoTone Dark Themes for Visual Studio Code",
+        "install_link": "",
+        "last_update": "2017-02-15T13:57:22.373Z",
+        "author": "sallar",
+        "publisherId": "c93dc07b-d520-484b-a42d-46ebc2acc646",
+        "previewImage": ""
+    },
+    {
+        "id": "7f937559-a3c9-43e0-a62b-0008a5da127b",
+        "theme_name": "hopscotch",
+        "description": "Color scheme inspired by the Hopscotch learning platform for kids",
+        "install_link": "",
+        "last_update": "2022-02-08T16:23:28.043Z",
+        "author": "idleberg",
+        "publisherId": "d142cf02-af52-4395-9363-148909445cb3",
+        "previewImage": ""
+    },
+    {
+        "id": "d1b33efe-8957-4d14-9ef6-e043fdbe9079",
+        "theme_name": "deepdark-material",
+        "description": "A clean dark material theme and icon package for Visual Studio Code Editor",
+        "install_link": "",
+        "last_update": "2023-08-27T04:58:28.42Z",
+        "author": "Nimda",
+        "publisherId": "4d614a70-f7df-4afa-b5d5-918bc0cfe0ff",
+        "previewImage": ""
+    },
+    {
+        "id": "669407de-c51c-44eb-a05a-c9c66ffd4a83",
+        "theme_name": "preparing",
+        "description": "Theme designed in a naruto style, but more darker",
+        "install_link": "",
+        "last_update": "2022-03-22T03:00:04.153Z",
+        "author": "Thomaz",
+        "publisherId": "69415be6-e946-4c05-889a-46ddc23cbfde",
+        "previewImage": ""
+    },
+    {
+        "id": "955e2d23-279c-44e2-81e1-ed2d3df7cec9",
+        "theme_name": "one-dark-pro-monokai-darker",
+        "description": "A Darker One Dark Pro variation with Monokai scheme",
+        "install_link": "",
+        "last_update": "2018-02-15T07:17:37.713Z",
+        "author": "eserozvataf",
+        "publisherId": "386307e6-e884-49eb-b0ff-db37e3023a23",
+        "previewImage": ""
+    },
+    {
+        "id": "f4d7cb0b-ba14-42cd-aef4-cc006556fbb3",
+        "theme_name": "darcula-pycharm",
+        "description": "PyCharm's Darcula syntax theme ported with care to VS Code",
+        "install_link": "",
+        "last_update": "2019-09-06T03:01:24.493Z",
+        "author": "garytyler",
+        "publisherId": "d5a91575-5edb-4e0b-828d-3d1427131779",
+        "previewImage": ""
+    },
+    {
+        "id": "659a35e1-7b7f-4b47-822d-0d96fd6e13e7",
+        "theme_name": "icons-carbon",
+        "description": "Carbon Product Icons for VS Code",
+        "install_link": "",
+        "last_update": "2022-10-09T09:59:35.883Z",
+        "author": "antfu",
+        "publisherId": "f20453fe-720b-4a02-8838-84ab3fdc1b74",
+        "previewImage": ""
+    },
+    {
+        "id": "dd7e0ff7-9eb5-45fe-8b21-00e79b632b7f",
+        "theme_name": "dark-plus-syntax",
+        "description": "VS Code's default dark theme, but just a little bit better.",
+        "install_link": "",
+        "last_update": "2022-10-18T14:49:00.773Z",
+        "author": "dunstontc",
+        "publisherId": "564ecb85-8c09-42fc-b2da-902737b2e743",
+        "previewImage": ""
+    },
+    {
+        "id": "8edd410a-6a61-4a6e-820f-9be6cb26b1dc",
+        "theme_name": "dracula-theme-from-intellij",
+        "description": "A Darcula Theme inspired by IntelliJ",
+        "install_link": "",
+        "last_update": "2018-11-26T03:51:47.437Z",
+        "author": "trinm1709",
+        "publisherId": "59591100-aa5e-4ea6-b745-84fc525130d4",
+        "previewImage": ""
+    },
+    {
+        "id": "fe612a60-7107-41d4-a01e-4c3bebe3ffd8",
+        "theme_name": "moonlight",
+        "description": "A VS Code theme with bubblegum colors on a moonlit background.",
+        "install_link": "",
+        "last_update": "2024-01-16T10:37:27.85Z",
+        "author": "atomiks",
+        "publisherId": "ee8ecf26-6d35-4318-aeba-937d9a4cef37",
+        "previewImage": ""
+    },
+    {
+        "id": "53ceb0a7-7e7a-4f26-a91d-084f3d714420",
+        "theme_name": "FlatUI",
+        "description": "A flat style theme for vscode",
+        "install_link": "",
+        "last_update": "2018-11-27T22:38:11.733Z",
+        "author": "lkytal",
+        "publisherId": "675457ed-0b91-461b-a1b3-da865bf32269",
+        "previewImage": ""
+    },
+    {
+        "id": "961c6678-1125-43a1-8482-df5a0766d313",
+        "theme_name": "gruvbox-themes",
+        "description": "All gruvbox themes for Visual Studio Code.",
+        "install_link": "",
+        "last_update": "2017-04-27T18:01:42.16Z",
+        "author": "tomphilbin",
+        "publisherId": "b2a2c063-63d4-4cbd-82cf-dfe3b771e29d",
+        "previewImage": ""
+    }
+]

@@ -1,0 +1,1003 @@
+[
+    {},
+    {
+        "id": 11938,
+        "theme_name": "One Dark Theme",
+        "description": "One Dark theme for JetBrains. Do you need help? Please check the docs FAQs to see if we can solve your problem. If that does not fix your problem, please submit an...",
+        "install_link": "/plugin/11938-one-dark-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/11938/preview_19494.png"
+    },
+    {
+        "id": 8006,
+        "theme_name": "Material Theme UI",
+        "description": "Material Theme UI Plugin Material Design Experience for JetBrains IDEs Material Theme UI is a plugin for JetBrains IDE (IntelliJ IDEA, WebStorm, Android Studio and so...",
+        "install_link": "/plugin/8006-material-theme-ui",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/8006/preview_59dae25e-1d38-4190-a8fb-f8be1c3ffa02"
+    },
+    {
+        "id": 12334,
+        "theme_name": "Gradianto",
+        "description": "About Gradianto aims to be easy on the eyes while being colorful and bright. Gradianto ships with the gradients found in nature. There is something for everyone.",
+        "install_link": "/plugin/12334-gradianto",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12334/preview_23544.png"
+    },
+    {
+        "id": 18922,
+        "theme_name": "Gerry Themes",
+        "description": "Gerry Themes is a refined themes collection including 15 themes designed for comfortable development experience. Basic features in Gerry Themes &amp; Gerry Themes Pro...",
+        "install_link": "/plugin/18922-gerry-themes",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/18922/preview_4d85c4dc-999a-4b22-ab03-8931fbee41d6"
+    },
+    {
+        "id": 10321,
+        "theme_name": "Nord",
+        "description": "An arctic, north-bluish clean and elegant JetBrains IDE UI and editor color theme.",
+        "install_link": "/plugin/10321-nord",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/10321/preview_19450.png"
+    },
+    {
+        "id": 12163,
+        "theme_name": "Monocai Color Theme",
+        "description": "Adds Monocai, inspired by Monokai and Monokai Pro, as an editor colorscheme. This color theme uses modern colors that will enhance readability whilst keeping eyestrain...",
+        "install_link": "/plugin/12163-monocai-color-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12163/preview_19371.png"
+    },
+    {
+        "id": 12112,
+        "theme_name": "Solarized Theme",
+        "description": "Adds Solarized Dark and Light themes.",
+        "install_link": "/plugin/12112-solarized-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12112/preview_19348.png"
+    },
+    {
+        "id": 12697,
+        "theme_name": "IntelliJ Light Theme",
+        "description": "IntelliJ Light is a new light theme for IntelliJ-based IDEs starting 2020.1. This plugin is a preview of this theme and can be used with versions 2019.1\u20133. The new...",
+        "install_link": "/plugin/12697-intellij-light-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12697/preview_19999.png"
+    },
+    {
+        "id": 12124,
+        "theme_name": "Material Theme UI Lite",
+        "description": "Material Theme UI Lite Material Design Experience for JetBrains IDEs This is a lite version of the Material Theme UI Plugin containing only the themes and color...",
+        "install_link": "/plugin/12124-material-theme-ui-lite",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12124/preview_19338.png"
+    },
+    {
+        "id": 13643,
+        "theme_name": "Monokai Pro Theme",
+        "description": "The unofficial Monokai Pro theme, adapted for JetBrains by Subtheme. This plugin includes the default theme, classic theme, and four filters: Machine, Octagon...",
+        "install_link": "/plugin/13643-monokai-pro-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/13643/preview_f0b5d35f-20af-480c-94a6-2bd45016e2bd"
+    },
+    {
+        "id": 12100,
+        "theme_name": "Dark Purple Theme",
+        "description": "A dark theme in purple tones. For version 2019.1 and above. To install: Go to Settings (Preferences) | Plugins, find the theme plugin and install it Restart IDE Go to...",
+        "install_link": "/plugin/12100-dark-purple-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12100/preview_19981.png"
+    },
+    {
+        "id": 12255,
+        "theme_name": "Visual Studio Code Dark Plus Theme",
+        "description": "A dark theme for JetBrains IDEs inspired by default Visual Studio Code \"Dark Plus\" theme.",
+        "install_link": "/plugin/12255-visual-studio-code-dark-plus-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12255/preview_4f64aab7-ed70-4fce-9ac6-49e9f8662788"
+    },
+    {
+        "id": 12275,
+        "theme_name": "Dracula Theme",
+        "description": "Dracula Theme for JetBrains Install All instructions can be found at draculatheme.com/jetbrains. Dracula PRO Dracula PRO is a color scheme and UI theme tailored for...",
+        "install_link": "/plugin/12275-dracula-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12275/preview_81523e42-05a5-4b4b-b803-899ecc56a5a5"
+    },
+    {
+        "id": 13106,
+        "theme_name": "Xcode-Dark Theme",
+        "description": "This theme brings colors from the Xcode Dark theme to IntelliJ. To install: Go to Settings (Preferences) | Plugins, find the theme plugin, and install it Restart the...",
+        "install_link": "/plugin/13106-xcode-dark-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/13106/preview_20379.png"
+    },
+    {
+        "id": 13883,
+        "theme_name": "Rider UI Theme Pack",
+        "description": "Set of UI themes for Rider IDE: - Rider, Day and Night (for the New UI) - Rider, Light and Dark - Rider Melon, Light and Dark - Visual Studio, Light and Dark - Visual...",
+        "install_link": "/plugin/13883-rider-ui-theme-pack",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/13883/preview_4368b362-5837-46ae-85ea-c2dd79e1bd15"
+    },
+    {
+        "id": 18682,
+        "theme_name": "Catppuccin Theme",
+        "description": "\ud83e\udde0 Soothing pastel theme for JetBrains IDEs Catppuccin is a community-driven pastel theme that aims to be the middle ground between low and high contrast themes. It...",
+        "install_link": "/plugin/18682-catppuccin-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/18682/preview_61db36d1-5b50-41c8-beb9-4590367ae555"
+    },
+    {
+        "id": 12118,
+        "theme_name": "Hiberbee Theme",
+        "description": "Vivid, color-intensive dark theme for Jetbrains IDE with consolidated color code for all programming languages.Features: Unique color identity map for all language...",
+        "install_link": "/plugin/12118-hiberbee-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12118/preview_6c6e3ad7-cfde-4ecf-8171-e8c5831c5c5a"
+    },
+    {
+        "id": 14799,
+        "theme_name": "Atom One Theme",
+        "description": "The Atom One theme, adapted for JetBrains by Subtheme. Both dark and light themes are included. Search for Subtheme to find more themes, including Monokai Pro...",
+        "install_link": "/plugin/14799-atom-one-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/14799/preview_0dfef856-2313-4ea1-bd40-d3156be01ea2"
+    },
+    {
+        "id": 15727,
+        "theme_name": "Xcode Theme",
+        "description": "Xcode Light &amp; Dark themes for JetBrains Licence Apache-2.0 Licence Donation If you like this plugin, you can buy me a cup of coffee. Thank you!.",
+        "install_link": "/plugin/15727-xcode-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/15727/preview_c668ede8-a306-4a52-aa5b-34e6d44c0a45"
+    },
+    {
+        "id": 19177,
+        "theme_name": "VSCode Theme",
+        "description": "Provides Visual Studio Code / VSCode Editor Color Scheme for Jetbrains IDEs (webstorm, Intellij, Rider &amp; many more); This plugin aims to closely emulate the VSCode...",
+        "install_link": "/plugin/19177-vscode-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/19177/preview_f0b3d56f-dcee-4fe8-ab3f-a7e8278bdd95"
+    },
+    {
+        "id": 12310,
+        "theme_name": "Gruvbox Theme",
+        "description": "gruvbox is heavily inspired by badwolf, jellybeans and solarized. Designed as a bright theme with pastel 'retro groove' colors and light/dark mode switching in the way...",
+        "install_link": "/plugin/12310-gruvbox-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12310/preview_19486.png"
+    },
+    {
+        "id": 12692,
+        "theme_name": "Darcula Darker Theme",
+        "description": "A dark theme based on Darcula, but with more contrasting tones. For JetBrains IDEs, version 2019.1 and above. To install: Go to Settings (Preferences) | Plugins, find...",
+        "install_link": "/plugin/12692-darcula-darker-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12692/preview_19962.png"
+    },
+    {
+        "id": 12102,
+        "theme_name": "Cyan Light Theme",
+        "description": "A light theme in cyan tones. For version 2019.1 and above. To install: Go to Settings (Preferences) | Plugins, find the theme plugin and install it Restart IDE Go to...",
+        "install_link": "/plugin/12102-cyan-light-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12102/preview_19982.png"
+    },
+    {
+        "id": 15418,
+        "theme_name": "GitHub Theme",
+        "description": "GitHub Theme for Jetbrains is heavily inspired by GitHub 3 Color Scheme and github-vscode-theme. The focus of the development of this theme plugin is to restore the...",
+        "install_link": "/plugin/15418-github-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/15418/preview_c6ec8b6f-baae-456d-9612-337a38a20975"
+    },
+    {
+        "id": 16142,
+        "theme_name": "Nightfall Theme",
+        "description": "A dark, clean, simple and elegant theme for JetBrains IDE.",
+        "install_link": "/plugin/16142-nightfall-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/16142/preview_4de8c3d7-ed08-4293-8349-f59d9e4ec862"
+    },
+    {
+        "id": 12226,
+        "theme_name": "Vuesion Theme",
+        "description": "Vuesion theme and color scheme for IntelliJ\u00ae, Webstorm\u00ae and other Jetbrains\u00ae IDEs. Theme and color scheme based on the vuesion project.",
+        "install_link": "/plugin/12226-vuesion-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12226/preview_19385.png"
+    },
+    {
+        "id": 12995,
+        "theme_name": "Trash Panda Theme",
+        "description": "A theme for raccoons and other creatures of the night. Features Four dark theme variations: Dark (Default), Blacklight (High Contrast), Starlight, Moonlight Two light...",
+        "install_link": "/plugin/12995-trash-panda-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12995/preview_f4a9870c-48de-432b-8c99-2cc6821f0931"
+    },
+    {
+        "id": 12178,
+        "theme_name": "Atom OneDark Theme",
+        "description": "Atom One Dark Theme Modernize The Intellij Idea Recommend with plugin decorate usage.",
+        "install_link": "/plugin/12178-atom-onedark-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12178/preview_19449.png"
+    },
+    {
+        "id": 12103,
+        "theme_name": "Gray Theme",
+        "description": "A low-contrast light theme with lots of space between text lines. Made for writing in Markdown inside IntelliJ IDEs. For version 2019.1 and above. Please note that...",
+        "install_link": "/plugin/12103-gray-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12103/preview_19979.png"
+    },
+    {
+        "id": 14965,
+        "theme_name": "Visual Studio 2019 Dark Theme",
+        "description": "A dark theme for JetBrains IDEs inspired by default Visual Studio 2019 \"Dark\" theme. It's may be useful for those who are just starting to use JetBrains products and...",
+        "install_link": "/plugin/14965-visual-studio-2019-dark-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/14965/preview_cfd3077c-9938-47ee-a017-20a99f839cba"
+    },
+    {
+        "id": 10804,
+        "theme_name": "Doki Theme",
+        "description": "Cute anime character themes! This is a large collection of themes built with love and care. See the documentation for more details.",
+        "install_link": "/plugin/10804-doki-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/10804/preview_e2bdc2af-1e3e-462b-a635-b97e25e587a6"
+    },
+    {
+        "id": 12891,
+        "theme_name": "Codely Theme",
+        "description": "Codely Theme. A modern, good-looking, productivity-increaser theme for all JetBrains IDEs.",
+        "install_link": "/plugin/12891-codely-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12891/preview_b20b79fb-6468-42c0-af3a-c75f8a800fc0"
+    },
+    {
+        "id": 20558,
+        "theme_name": "Gruvbox - Theme",
+        "description": "Fork from https://plugins.jetbrains.com/plugin/12310-gruvbox-theme. gruvbox is heavily inspired by badwolf, jellybeans and solarized. Designed as a bright theme with...",
+        "install_link": "/plugin/20558-gruvbox--theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/20558/preview_3a50152b-2526-4dd4-b449-bf26cf0d8160"
+    },
+    {
+        "id": 12122,
+        "theme_name": "Spacegray Theme",
+        "description": "Spacegray theme for IntelliJ, inspired by one made by Gadzhi Kharkharov for SublimeText.",
+        "install_link": "/plugin/12122-spacegray-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12122/preview_19331.png"
+    },
+    {
+        "id": 19291,
+        "theme_name": "GitHub Dark Theme",
+        "description": "Getting as close as GitHub's dark theme as possible. Report an issue | On GitHub.",
+        "install_link": "/plugin/19291-github-dark-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/19291/preview_a129bcd7-055d-4f62-ba2e-ac39ba763437"
+    },
+    {
+        "id": 14369,
+        "theme_name": "Lotus Theme",
+        "description": "Lotus Theme Plugin A theme pack with pastel font colors for the JetBrains platform. Includes a dark theme and light theme. Lotus Dark Lotus Light This theme includes...",
+        "install_link": "/plugin/14369-lotus-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/14369/preview_22014.png"
+    },
+    {
+        "id": 18724,
+        "theme_name": "Dark-Themes",
+        "description": "This plugins contains personal favorites and the famous vscode themes. Themes included in this plugin: Aura Ayu Mirage Blue Dolphin Calm Chillhop City Pop Cobalt2...",
+        "install_link": "/plugin/18724-dark-themes",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/18724/preview_0631ac1e-e613-4048-80bd-12f3e51b1104"
+    },
+    {
+        "id": 12134,
+        "theme_name": "Material Design Dark-Theme",
+        "description": "A jetbrains theme plugin use(may not) material design.",
+        "install_link": "/plugin/12134-material-design-dark-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12134/preview_19608.png"
+    },
+    {
+        "id": 12131,
+        "theme_name": "One Dark Native",
+        "description": "This color theme try to recreate the theme of the Atom text editor, One Dark, using the new native theme support. Repo...",
+        "install_link": "/plugin/12131-one-dark-native",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12131/preview_20609.png"
+    },
+    {
+        "id": 13920,
+        "theme_name": "Darcula Solid Theme",
+        "description": "A dark theme based on Darcula, but with MORE contrasting &amp; solid tones. To install: Go to Settings (Preferences) | Plugins, find the theme plugin and install it...",
+        "install_link": "/plugin/13920-darcula-solid-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/13920/preview_21303.png"
+    },
+    {
+        "id": 14059,
+        "theme_name": "Darcula Pitch Black",
+        "description": "A dark theme based on Darcula Solid, but with pitch black background. To install: Go to Settings (Preferences) | Plugins, find the theme plugin and install it Restart...",
+        "install_link": "/plugin/14059-darcula-pitch-black",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/14059/preview_21476.png"
+    },
+    {
+        "id": 15563,
+        "theme_name": "Cyberpunk Theme",
+        "description": "A theme inspired by the UI colors in Cyberpunk 2077. To match the font in the plugin's screenshots: Preferences &gt; Editor &gt; Font &gt; Font: Source Code Pro...",
+        "install_link": "/plugin/15563-cyberpunk-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/15563/preview_23ca250e-3877-4efc-b8ae-5f2210d7690c"
+    },
+    {
+        "id": 12280,
+        "theme_name": "Carbon",
+        "description": "A minimalist dark theme using comfortable UI colors.",
+        "install_link": "/plugin/12280-carbon",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12280/preview_20086.png"
+    },
+    {
+        "id": 16729,
+        "theme_name": "Deep Ocean Theme",
+        "description": "Just a beautiful dark theme for JetBrains IDE's.",
+        "install_link": "/plugin/16729-deep-ocean-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/16729/preview_f3e671b9-d5f6-49de-8f0c-bdc55ec080e9"
+    },
+    {
+        "id": 12878,
+        "theme_name": "Coderpillr Theme",
+        "description": "A dark theme modeled after Visual Studio Code's Material Palenight and JetBrains' Dark Purple themes. For version 2019.1 and above. Tested with IntelliJ, WebStorm...",
+        "install_link": "/plugin/12878-coderpillr-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12878/preview_20148.png"
+    },
+    {
+        "id": 14374,
+        "theme_name": "Godot Theme",
+        "description": "A theme inspired by the Godot editor's default theme. To match the Godot editor's font: Preferences &gt; Editor &gt; Font &gt; Font: Source Code Pro (downloadable...",
+        "install_link": "/plugin/14374-godot-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/14374/preview_22111.png"
+    },
+    {
+        "id": 20495,
+        "theme_name": "Elegant Theme",
+        "description": "Elegant theme and color scheme for Jetbrains. Color schema If you have any good idea or find a bug, you can open an issue to tell me!.",
+        "install_link": "/plugin/20495-elegant-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/20495/preview_35314ae1-d52c-4854-bbb0-4c20bd2fc628"
+    },
+    {
+        "id": 13404,
+        "theme_name": "Eclipse theme",
+        "description": "Eciipse theme, mainly the color and code style.",
+        "install_link": "/plugin/13404-eclipse-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/13404/preview_20588.png"
+    },
+    {
+        "id": 20877,
+        "theme_name": "macOS Light Theme",
+        "description": "Provides macOS Look And Feel that mimics macOS native Blue and Graphite themes.",
+        "install_link": "/plugin/20877-macos-light-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": ""
+    },
+    {
+        "id": 16506,
+        "theme_name": "Oceanic Dark Theme",
+        "description": "Material Oceanic Dark Theme and color scheme for IntelliJ, PHPStorm and other Jetbrains IDEs. To install: Open Settings (Preferences) | Plugins and search for Oceanic...",
+        "install_link": "/plugin/16506-oceanic-dark-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/16506/preview_8ead024c-1391-4a8e-8a5a-630ccec35a0d"
+    },
+    {
+        "id": 19537,
+        "theme_name": "Copilot Dark Theme",
+        "description": "Theme inspired by the original colours of the GitHub Copilot website. This theme was initially inspired by Benjamin Benais Copilot theme in VS Code but I have adjusted...",
+        "install_link": "/plugin/19537-copilot-dark-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/19537/preview_8064be63-f04a-4020-8bad-11332f2175b7"
+    },
+    {
+        "id": 10745,
+        "theme_name": "Cobalt 2",
+        "description": "This is a complete UI Theme for your Jetbrains IDE. After installing you can select the new theme with Preferences --&gt; Appearance &amp; Behavior --&gt; Appearance...",
+        "install_link": "/plugin/10745-cobalt-2",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/10745/preview_20901.png"
+    },
+    {
+        "id": 15187,
+        "theme_name": "SuperDark Theme",
+        "description": "IntelliJ Dark Theme. Beautiful dark theme compatible with all IntelliJ IDEs. This theme is based on neon themes. Screenshots.",
+        "install_link": "/plugin/15187-superdark-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/15187/preview_23433.png"
+    },
+    {
+        "id": 13792,
+        "theme_name": "? DarkCode Theme",
+        "description": "? DarkCode-Theme-JetBrains \u3064 \u25d5_\u25d5 \u3064 Dark theme for cool \"JetBrains\" coders ? Converted version of DarkCode Theme ? Screenshots ? Support &amp; Contact...",
+        "install_link": "/plugin/13792--darkcode-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/13792/preview_21159.png"
+    },
+    {
+        "id": 16721,
+        "theme_name": "Cute Pink Light Theme",
+        "description": "Cute Pink Light Theme for IntelliJ Platform inspired by WebFreak's Cute Pink Light Theme for VisualStudio Code.",
+        "install_link": "/plugin/16721-cute-pink-light-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/16721/preview_a1c142e4-d63b-4263-b1d9-6fc7e4c17041"
+    },
+    {
+        "id": 16496,
+        "theme_name": "Tomorrow Night Theme",
+        "description": "An implementation of the Tomorrow Night Base 16 Theme. Thanks to chriskempson and Miles Johnson.",
+        "install_link": "/plugin/16496-tomorrow-night-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/16496/preview_070de226-04e3-4ae6-9404-87e80a2d2516"
+    },
+    {
+        "id": 14630,
+        "theme_name": "Celestial",
+        "description": "Jetbrains IDE theme for all the people who love to code in deep dark spaces.",
+        "install_link": "/plugin/14630-celestial",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/14630/preview_22519.png"
+    },
+    {
+        "id": 16118,
+        "theme_name": "Sepia Theme",
+        "description": "Light eye-friendly theme (New UI compatible) Features Healthy for the eyes and good for night's sleep thanks to reducing blue light Readable thanks to minimal and...",
+        "install_link": "/plugin/16118-sepia-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/16118/preview_9b208780-ed14-44d7-9105-fcc98564e72d"
+    },
+    {
+        "id": 12434,
+        "theme_name": "Obsidian",
+        "description": "A minimalist dark and light theme using comfortable UI colors.",
+        "install_link": "/plugin/12434-obsidian",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12434/preview_20090.png"
+    },
+    {
+        "id": 15905,
+        "theme_name": "Glowing Darcula",
+        "description": "Adding a high contrast theme based on the iconic Darcula theme from JetBrains. The Glowing Darcula Theme is excellent for sunny days when working outside or close to a...",
+        "install_link": "/plugin/15905-glowing-darcula",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/15905/preview_1d80d9d5-222e-448b-8b94-dff031d8f6d8"
+    },
+    {
+        "id": 18943,
+        "theme_name": "Moonlight Dark Theme",
+        "description": "A friendly dark theme for those long coding sessions. Inspirations and colors picked from: Moonlight To install: Go to Settings | Plugins, find the theme plugin and...",
+        "install_link": "/plugin/18943-moonlight-dark-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/18943/preview_f5b2f14d-8e09-48c4-98de-f28d3f35cf1f"
+    },
+    {
+        "id": 13022,
+        "theme_name": "MyGruvbox Theme",
+        "description": "This's a gift for Vimer A custom Gruvbox theme, focus on more eye-friendly code colors. Support Java, Kotlin, Groovy, Scala, Javascript, Html, Xml, Sql, Shell... To...",
+        "install_link": "/plugin/13022-mygruvbox-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/13022/preview_ccae088e-52a7-440a-b2df-724166031d92"
+    },
+    {
+        "id": 12138,
+        "theme_name": "Clean Sheet Theme",
+        "description": "inlined during build from description.html Clean Sheet Theme [Home] [Issues] Port of Eclipse Clean Sheet theme Preview RELEASE_TYPE Release (RELEASE_DATETIME) Features...",
+        "install_link": "/plugin/12138-clean-sheet-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12138/preview_19175.png"
+    },
+    {
+        "id": 19348,
+        "theme_name": "True Dark",
+        "description": "True Black Theme A Pure Dark theme with the highest contrast ratio eyes has ever known. I have been struggling a lot with all the outdated IntelliJ UI components...",
+        "install_link": "/plugin/19348-true-dark",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/19348/preview_49419596-899c-4498-813e-675c05e69790"
+    },
+    {
+        "id": 14093,
+        "theme_name": "Halcyon Theme",
+        "description": "A minimal, dark blue theme for the JetBrains suite of IDEs based on Brittany Chiang's VSCode theme. Please consider leaving a review for this theme! Due to the way...",
+        "install_link": "/plugin/14093-halcyon-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/14093/preview_21527.png"
+    },
+    {
+        "id": 18364,
+        "theme_name": "Neo Theme",
+        "description": "Neo is the One Neo theme came for Atom One, and make huge adjustments based on intellij's semantic highlighting. Features Neo Light: Based on atom one lightNeo Night...",
+        "install_link": "/plugin/18364-neo-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/18364/preview_3a1bb612-d783-4d77-b306-a44ef56a7ce0"
+    },
+    {
+        "id": 12773,
+        "theme_name": "OneDarkMonokai",
+        "description": "This theme is combination of onedark theme and monokai color scheme. Inspire by monokai-one-dark-vivid from vscode. To install: Go to Settings (Preferences) | Plugins...",
+        "install_link": "/plugin/12773-onedarkmonokai",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12773/preview_20065.png"
+    },
+    {
+        "id": 15391,
+        "theme_name": "Twitch Dark Theme",
+        "description": "Twitch brand colors inspired theme for your favorite IntelliJ IDE.",
+        "install_link": "/plugin/15391-twitch-dark-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/15391/preview_4cc15553-0210-4caa-bfd8-31f8fd0a9485"
+    },
+    {
+        "id": 12425,
+        "theme_name": "DarkTheme",
+        "description": "DarkTheme A dark theme for JetBrains IDEs.",
+        "install_link": "/plugin/12425-darktheme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12425/preview_19667.png"
+    },
+    {
+        "id": 12317,
+        "theme_name": "Espresso Light Theme",
+        "description": "Espresso light theme for IntelliJ.",
+        "install_link": "/plugin/12317-espresso-light-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12317/preview_19504.png"
+    },
+    {
+        "id": 12191,
+        "theme_name": "Roboticket Light Theme",
+        "description": "A low-contrast light theme. For version 2019.1 and above. Please note that this theme overrides your font settings. Uncheck \"Use color scheme font instead of the...",
+        "install_link": "/plugin/12191-roboticket-light-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12191/preview_20021.png"
+    },
+    {
+        "id": 18572,
+        "theme_name": "Mariana Pro Theme",
+        "description": "A complete color theme for IntelliJ IDE based on Sublime Text's Mariana Syntax and Adaptive UI.",
+        "install_link": "/plugin/18572-mariana-pro-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/18572/preview_3e911244-7a5e-45d5-b38e-67c179ed8ef0"
+    },
+    {
+        "id": 12264,
+        "theme_name": "Darcula Sombre",
+        "description": "Darcula Sombre Theme: like Darcula Theme, with darker colors and unobtrusive borders. Apply theme: File &gt; Settings... &gt; Appearance &amp; Behavior &gt; Appearance...",
+        "install_link": "/plugin/12264-darcula-sombre",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12264/preview_19419.png"
+    },
+    {
+        "id": 20772,
+        "theme_name": "OneNord",
+        "description": "About OneNord is a clean and vibrant theme that combines the Nord and Atom One Dark color palettes. Extras There is also a Neovim version of this theme, along with...",
+        "install_link": "/plugin/20772-onenord",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/20772/preview_4b4b843a-6777-4e03-bf6c-125aa1fc2272"
+    },
+    {
+        "id": 14920,
+        "theme_name": "Solarized Theme",
+        "description": "The Solarized theme, adapted for JetBrains by Subtheme. Both dark and light themes are included. Search for Subtheme to find more themes, including Atom One, Monokai...",
+        "install_link": "/plugin/14920-solarized-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/14920/preview_c90b9e46-3766-44ed-ae8d-b05771e721c5"
+    },
+    {
+        "id": 12152,
+        "theme_name": "Theme Collection",
+        "description": "Theme Collection for JetBrains IDEs (IntelliJ, WebStorm, CLion, ...).",
+        "install_link": "/plugin/12152-theme-collection",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12152/preview_19198.png"
+    },
+    {
+        "id": 15515,
+        "theme_name": "Palenight",
+        "description": "This is an alteration on the Material Palenight theme, that brightens up some of the colours to increase readability. The original theme that this was based on can be...",
+        "install_link": "/plugin/15515-palenight",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/15515/preview_23904.png"
+    },
+    {
+        "id": 19539,
+        "theme_name": "Kanagawa Theme",
+        "description": "Port of KANAGAWA.nvim for Jetbrains IDEsKanagawa Theme Kanagawa Theme for JetBrains IDEs My port of KANAGAWA.nvim for Jetbrains IDEs. The color scheme and UI elements...",
+        "install_link": "/plugin/19539-kanagawa-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/19539/preview_ad644e65-4735-42f0-aac8-776e591d20a9"
+    },
+    {
+        "id": 14953,
+        "theme_name": "Visual Studio Code Monokai HC",
+        "description": "A dark theme for JetBrains IDEs inspired by Visual Studio Code \"Monokai Theme in High Contrast themes\".",
+        "install_link": "/plugin/14953-visual-studio-code-monokai-hc",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/14953/preview_23095.png"
+    },
+    {
+        "id": 12262,
+        "theme_name": "Night Owl Theme",
+        "description": "A dark theme for Jetbrains IDE Platform. Night Owl uses a very dark gray to provide a calm coding experience.",
+        "install_link": "/plugin/12262-night-owl-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12262/preview_19370.png"
+    },
+    {
+        "id": 12893,
+        "theme_name": "Green lite theme",
+        "description": "A simple green theme changed from one dark theme.",
+        "install_link": "/plugin/12893-green-lite-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12893/preview_20166.png"
+    },
+    {
+        "id": 15126,
+        "theme_name": "Iceberg",
+        "description": "Dark blue color scheme for IntelliJ platform, based on Iceberg by cocopon.",
+        "install_link": "/plugin/15126-iceberg",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/15126/preview_23329.png"
+    },
+    {
+        "id": 16308,
+        "theme_name": "Love Your Eyes Theme",
+        "description": "EN: This is a green theme. If you want to think about it, you can get more green on your head every day. In fact, this is a bright color theme with mung bean sand...",
+        "install_link": "/plugin/16308-love-your-eyes-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/16308/preview_34ed4d17-bdbc-41fe-9fd3-25698f517635"
+    },
+    {
+        "id": 12169,
+        "theme_name": "Light Flat Theme",
+        "description": "Light LaF theme based on 'Rider Light' with more 'flat' design and minimum visible borders.",
+        "install_link": "/plugin/12169-light-flat-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12169/preview_19216.png"
+    },
+    {
+        "id": 20140,
+        "theme_name": "One Dark Darker",
+        "description": "One Dark Darker theme for JetBrains. Darker background color Italic style keywords Flat UI colors.",
+        "install_link": "/plugin/20140-one-dark-darker",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/20140/preview_1943d483-b85a-44dc-98ce-4075dd1c38e9"
+    },
+    {
+        "id": 18141,
+        "theme_name": "Ros\u00e9 Pine",
+        "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist Includes all three of the rose pine themes (rose-pine, rose-pine-dawn, rose-pine-moon).",
+        "install_link": "/plugin/18141-ros-pine",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/18141/preview_54e31a1f-893d-471c-a9d8-14e8f9780fbf"
+    },
+    {
+        "id": 17418,
+        "theme_name": "Foundation Theme",
+        "description": "A standard design with a dark and light theme. Contributions are welcome with GitHub. Screenshots were taken with Atom Material Icons and Operator Mono.",
+        "install_link": "/plugin/17418-foundation-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/17418/preview_9cf79593-858f-4a8c-9669-96f848259ef4"
+    },
+    {
+        "id": 14645,
+        "theme_name": "Cobalt9",
+        "description": "A custom Cobalt theme Created by pydemia. This is a custom-revised version, inspired by `Cobalt2`.",
+        "install_link": "/plugin/14645-cobalt9",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/14645/preview_22548.png"
+    },
+    {
+        "id": 12182,
+        "theme_name": "Jake's Theme",
+        "description": "Jake's Theme: A 100% black background with other Darcula colors.",
+        "install_link": "/plugin/12182-jake-s-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12182/preview_19255.png"
+    },
+    {
+        "id": 20171,
+        "theme_name": "Lapis",
+        "description": "A dark blue inspired theme for the JetBrains IDEs with 7 accent / button color variations.",
+        "install_link": "/plugin/20171-lapis",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/20171/preview_ece2c3ae-dc9b-4490-bad2-3af12c25f6b8"
+    },
+    {
+        "id": 22653,
+        "theme_name": "Everest Theme",
+        "description": "Inspired by the majestic heights and serene landscapes of Mount Everest, this light theme aims to provide a calming and focused coding environment. The soft blues and...",
+        "install_link": "/plugin/22653-everest-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/22653/preview_f6ae912c-88a6-48d9-9b8d-35a63cda5583"
+    },
+    {
+        "id": 17938,
+        "theme_name": "Zenburn",
+        "description": "Zenburn is a low-contrast color scheme for Vim, ported to Intellij. It's easy on the eyes and designed to keep you in the zone for long programming sessions. Zenburn...",
+        "install_link": "/plugin/17938-zenburn",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/17938/preview_865d85ce-3c08-427f-bdbe-d688bd286234"
+    },
+    {
+        "id": 12546,
+        "theme_name": "Rider Dark Theme",
+        "description": "Dark theme out Rider Dark for Intellij IDEA.",
+        "install_link": "/plugin/12546-rider-dark-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12546/preview_19872.png"
+    },
+    {
+        "id": 16605,
+        "theme_name": "KDE Breeze Theme",
+        "description": "This plugin adds the default theme of KDE Plasma, Breeze, to Intellij IDEs. It consists of the Breeze Light ThemeBreeze Dark Theme These themes include styling of the...",
+        "install_link": "/plugin/16605-kde-breeze-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/16605/preview_846a3998-7bfa-4ea8-bd61-a52364ca33e0"
+    },
+    {
+        "id": 22022,
+        "theme_name": "ppy colours",
+        "description": "A very ppy colour scheme for Rider. Started in visual studio 10 years ago; adapted gradually to my own needs ever since. Uses Jetbrains Dark Purple for theme level...",
+        "install_link": "/plugin/22022-ppy-colours",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/22022/preview_2c993d41-0355-430f-bc23-339817e33d16"
+    },
+    {
+        "id": 18820,
+        "theme_name": "Tokyo Night Theme",
+        "description": "A dark and light Jetbrains theme ported from the Visual Studio Code TokyoNight theme. There are 2 variants here: TokyoNight Storm TokyoNight Dark Differences between...",
+        "install_link": "/plugin/18820-tokyo-night-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/18820/preview_793228c3-c7a7-4b1d-827e-694e09b0e591"
+    },
+    {
+        "id": 24455,
+        "theme_name": "Tokyo Dark Theme",
+        "description": "\ud83c\udfd9 Tokyo Dark A dark Jetbrains theme ported from the Visual Studio Code TokyoNight theme. A fork from alexdhy/tokyonight-jetbrains only supporting the dark variant. If...",
+        "install_link": "/plugin/24455-tokyo-dark-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/24455/preview_928c1ad4-4411-4c15-a960-50034045b806"
+    },
+    {
+        "id": 16840,
+        "theme_name": "Tanne Theme",
+        "description": "Eye comforting dark green theme for JetBrains IDEs.",
+        "install_link": "/plugin/16840-tanne-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/16840/preview_c1fcff04-9ea4-4abd-9114-1cfb11d86fa7"
+    },
+    {
+        "id": 22872,
+        "theme_name": "Sakura Theme",
+        "description": "Inspired by the enchanting allure of Sakura blossoms, this theme encapsulates the soft, calming essence of spring. Delicate pinks serve as the backdrop, representing...",
+        "install_link": "/plugin/22872-sakura-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/22872/preview_1d41d7f9-137f-41c6-9a00-ab526793efaf"
+    },
+    {
+        "id": 12165,
+        "theme_name": "Dark Flat Theme",
+        "description": "Dark LaF theme based on 'Rider Dark' with more 'flat' design and minimum visible borders.",
+        "install_link": "/plugin/12165-dark-flat-theme",
+        "last_update": "",
+        "author": "",
+        "publisherId": "",
+        "previewImage": "/files/12165/preview_19218.png"
+    }
+]
