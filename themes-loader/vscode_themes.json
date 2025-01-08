@@ -205,7 +205,7 @@
         "theme_name": "vscode-great-icons",
         "description": "A big pack of icons (200+) for your files.",
         "install_link": "",
-        "last_update": "2024-11-20T01:30:27.947Z",
+        "last_update": "2025-01-07T18:38:01.6Z",
         "author": "emmanuelbeziat",
         "publisherId": "c6e135ee-f6a2-45cb-b782-fd4de23acc84",
         "previewImage": ""
@@ -225,7 +225,7 @@
         "theme_name": "theme-cobalt2",
         "description": "\ud83d\udd25 Official theme by Wes Bos.",
         "install_link": "",
-        "last_update": "2023-09-18T16:19:52.623Z",
+        "last_update": "2025-01-07T18:43:41.16Z",
         "author": "wesbos",
         "publisherId": "ef56c328-1595-4d1e-9e0b-43d926331358",
         "previewImage": ""
@@ -821,16 +821,6 @@
         "previewImage": ""
     },
     {
-        "id": "53c3207b-73df-433b-90ad-785b5023f403",
-        "theme_name": "vscode-icons-mac",
-        "description": "Icons for Visual Studio Code (with classic mac folder icon)",
-        "install_link": "",
-        "last_update": "2019-08-02T03:52:48.643Z",
-        "author": "wayou",
-        "publisherId": "47daa402-5396-4346-b7bd-62494d6d63ec",
-        "previewImage": ""
-    },
-    {
         "id": "da69820f-32f2-49c6-915b-aa8e49455529",
         "theme_name": "vscode-vibrancy-continued",
         "description": "Vibrancy Effect for Visual Studio Code",
@@ -838,6 +828,16 @@
         "last_update": "2024-12-23T10:36:22.147Z",
         "author": "illixion",
         "publisherId": "959bc563-e508-41c8-b638-4244ffb346cb",
+        "previewImage": ""
+    },
+    {
+        "id": "53c3207b-73df-433b-90ad-785b5023f403",
+        "theme_name": "vscode-icons-mac",
+        "description": "Icons for Visual Studio Code (with classic mac folder icon)",
+        "install_link": "",
+        "last_update": "2019-08-02T03:52:48.643Z",
+        "author": "wayou",
+        "publisherId": "47daa402-5396-4346-b7bd-62494d6d63ec",
         "previewImage": ""
     },
     {

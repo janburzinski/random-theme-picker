@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { LoadingThemeAnimation } from "./LoadingTheme";
 import { ThemeDisplayer } from "./ThemeDisplayer";
 
@@ -10,27 +10,15 @@ type IDESelection = "VS Code" | "JetBrains";
 export const ThemePicker: React.FC = ({}) => {
   const [currentSelection, setCurrentSelection] =
     useState<IDESelection>("VS Code");
-  const [_, setCurrentEmojiIndex] = useState(0);
   const [isLoading, setLoading] = useState(false);
 
   const jetBrainsLogo = "/jetbrains.svg";
   const vsCodeLogo = "/vscode.svg";
-  const emojis = ["😀", "🎉", "🚀", "🌟", "🐱", "🍕", "🎨", "🌍", "🔥", "✨"];
 
   const toastBoxStyle =
     currentSelection === "VS Code"
       ? "relative bg-gradient-to-r from-purple-500 to-blue-500 text-white text-sm px-6 py-3 rounded-xl shadow-lg min-w-[50px] text-center"
       : "relative bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white text-sm px-6 py-3 rounded-xl shadow-lg min-w-[50px] text-center";
-
-  useEffect(() => {
-    if (isLoading) {
-      const interval = setInterval(() => {
-        setCurrentEmojiIndex((prevIdx) => (prevIdx + 1) % emojis.length);
-      }, 1000);
-
-      return () => clearInterval(interval);
-    }
-  }, [isLoading]);
 
   const handleLogoClick = () => {
     setCurrentSelection(
@@ -41,7 +29,7 @@ export const ThemePicker: React.FC = ({}) => {
   const pickRandomTheme = () => {
     // test
     setLoading(true);
-    setInterval(() => {
+    setTimeout(() => {
       setLoading(false);
     }, 1000);
   };

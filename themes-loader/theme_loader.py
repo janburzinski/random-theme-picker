@@ -55,6 +55,33 @@ vs-code response:
    ]
 }
 
+jetbrains response:
+{
+   "plugins":[
+      {
+         "id":11938,
+         "xmlId":"com.markskelton.one-dark-theme",
+         "link":"/plugin/11938-one-dark-theme",
+         "name":"One Dark Theme",
+         "preview":"One Dark theme for JetBrains. Do you need help? Please check the docs FAQs to see if we can solve your problem. If that does not fix your problem, please submit an...",
+         "downloads":8481542,
+         "pricingModel":"FREE",
+         "icon":"/files/11938/605820/icon/pluginIcon.svg",
+         "previewImage":"/files/11938/preview_19494.png",
+         "cdate":1726780936000,
+         "rating":4.8,
+         "hasSource":true,
+         "tags":[
+            "Theme",
+            "User Interface"
+         ],
+         "vendor":{
+            "name":"Mark Skelton",
+            "isVerified":false
+         }
+      }
+   }
+
 """
 import os.path
 
@@ -123,11 +150,11 @@ def load_vscode_themes():
         for extension in data["results"][0]["extensions"]:
             print(f"Name: {extension['displayName']}, Publisher: {extension['publisher']['publisherName']}")
             d.append({
-                "id":extension.get("extensionId", ""),
-                "theme_name": extension.get("extensionName",""),
+                "id": extension.get("extensionId", ""),
+                "theme_name": extension.get("extensionName", ""),
                 "description": extension.get("shortDescription", ""),
                 "install_link": "",
-                "last_update": extension.get("lastUpdated",""),
+                "last_update": extension.get("lastUpdated", ""),
                 "author": extension["publisher"]["publisherName"],
                 "publisherId": extension["publisher"]["publisherId"],
                 "previewImage": "",
@@ -150,19 +177,21 @@ def load_jetbrains_themes():
     dj = [{}]
 
     if response.status_code == 200:
-        extensions = response.json()["plugins"]
-        #print(extensions)
+        print(response.json())
+        extensions = response.json().get("plugins",[])
+        # print(extensions)
         for extension in extensions:
+            author = extension.get("vendor", {})
             print(extension)
             dj.append({
-                "id":extension.get("id",""),
-                "theme_name": extension.get("name",""),
-                "description": extension.get("preview",""),
+                "id": extension.get("id", ""),
+                "theme_name": extension.get("name", ""),
+                "description": extension.get("preview", ""),
                 "install_link": extension.get("link", ""),
                 "last_update": "",
-                "author": "",
+                "author": author.get("name"),
                 "publisherId": "",
-                "previewImage": extension.get("previewImage",""),
+                "previewImage": extension.get("previewImage", ""),
             })
     else:
         print_request_error(response)
