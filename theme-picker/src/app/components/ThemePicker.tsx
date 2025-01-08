@@ -3,35 +3,46 @@
 import Image from "next/image";
 import { useState } from "react";
 import { LoadingThemeAnimation } from "./LoadingTheme";
-import { ThemeDisplayer } from "./ThemeDisplayer";
+import { ThemeData, ThemeDisplayer } from "./ThemeDisplayer";
 
-type IDESelection = "VS Code" | "JetBrains";
+export type IDESelection = "vscode" | "jetbrains";
 
 export const ThemePicker: React.FC = ({}) => {
   const [currentSelection, setCurrentSelection] =
-    useState<IDESelection>("VS Code");
+    useState<IDESelection>("vscode");
   const [isLoading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [data, setData] = useState<ThemeData | null>(null);
 
   const jetBrainsLogo = "/jetbrains.svg";
   const vsCodeLogo = "/vscode.svg";
 
   const toastBoxStyle =
-    currentSelection === "VS Code"
+    currentSelection === "vscode"
       ? "relative bg-gradient-to-r from-purple-500 to-blue-500 text-white text-sm px-6 py-3 rounded-xl shadow-lg min-w-[50px] text-center"
       : "relative bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white text-sm px-6 py-3 rounded-xl shadow-lg min-w-[50px] text-center";
 
   const handleLogoClick = () => {
-    setCurrentSelection(
-      currentSelection === "VS Code" ? "JetBrains" : "VS Code"
-    );
+    setCurrentSelection(currentSelection === "vscode" ? "jetbrains" : "vscode");
   };
 
-  const pickRandomTheme = () => {
-    // test
+  const pickRandomTheme = async () => {
     setLoading(true);
-    setTimeout(() => {
+    setError(null);
+
+    try {
+      const res = await fetch(`/api/get-theme/?ide=${currentSelection}`);
+      if (!res.ok) throw new Error(`Error: ${res.status} | ${res.text}`);
+      const json = await res.json();
+      setData(json);
+      console.log("data", data);
+    } catch (err) {
+      setError((err as Error).message);
+    } finally {
       setLoading(false);
-    }, 1000);
+    }
+
+    console.log(error);
   };
 
   return (
@@ -49,9 +60,9 @@ export const ThemePicker: React.FC = ({}) => {
           ></div>
         </div>
         <Image
-          src={currentSelection === "VS Code" ? vsCodeLogo : jetBrainsLogo}
+          src={currentSelection === "vscode" ? vsCodeLogo : jetBrainsLogo}
           alt="VS Code / JetBrains Logo"
-          width={currentSelection === "VS Code" ? 50 : 200}
+          width={currentSelection === "vscode" ? 50 : 200}
           height={50}
           className="transition-transform cursor-pointer"
           onClick={handleLogoClick}
@@ -59,7 +70,10 @@ export const ThemePicker: React.FC = ({}) => {
       </div>
 
       <div className="text-4xl font-bold text-center">
-        {isLoading ? <LoadingThemeAnimation /> : <ThemeDisplayer />}
+        {isLoading && <LoadingThemeAnimation />}
+        {!isLoading && data && (
+          <ThemeDisplayer theme={data} ide={currentSelection} />
+        )}
       </div>
 
       <button

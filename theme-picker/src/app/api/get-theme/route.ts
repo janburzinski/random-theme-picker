@@ -32,7 +32,7 @@ export async function GET(req: NextApiRequest, res: NextApiResponse) {
     );
 
   const randomIndex = Math.floor(Math.random() * data.length);
-  return NextResponse.json({ theme: data[randomIndex] });
+  return NextResponse.json(data[randomIndex]);
 }
 
 interface ThemeData {
