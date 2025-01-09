@@ -1,5 +1,4 @@
 [
-    {},
     {
         "id": "99b17261-8f6e-45f0-9ad5-a69c6f509a4f",
         "theme_name": "cpptools-themes",
@@ -341,16 +340,6 @@
         "previewImage": ""
     },
     {
-        "id": "43843a91-c394-4d38-8afe-c1403a4399f8",
-        "theme_name": "vscode-presentation-mode",
-        "description": "Bring Presentation Mode to VS Code",
-        "install_link": "",
-        "last_update": "2022-09-05T23:38:49.577Z",
-        "author": "CS50",
-        "publisherId": "665be722-37c1-4a6e-b62e-7dd0e12b5769",
-        "previewImage": ""
-    },
-    {
         "id": "e0ee11e7-aa20-4e86-a3b9-2cd7d14fed93",
         "theme_name": "vscode-icontheme-nomo-dark",
         "description": "Nomo Dark Icon Theme",
@@ -358,6 +347,16 @@
         "last_update": "2018-07-24T16:03:12.637Z",
         "author": "be5invis",
         "publisherId": "8c148d69-cbc6-480b-bd8b-a42715926324",
+        "previewImage": ""
+    },
+    {
+        "id": "43843a91-c394-4d38-8afe-c1403a4399f8",
+        "theme_name": "vscode-presentation-mode",
+        "description": "Bring Presentation Mode to VS Code",
+        "install_link": "",
+        "last_update": "2022-09-05T23:38:49.577Z",
+        "author": "CS50",
+        "publisherId": "665be722-37c1-4a6e-b62e-7dd0e12b5769",
         "previewImage": ""
     },
     {

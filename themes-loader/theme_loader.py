@@ -87,6 +87,10 @@ import os.path
 
 import requests
 import json
+from dotenv import load_dotenv
+
+# load .env file
+load_dotenv()
 
 vs_file_name = "vscode_themes.json"
 vscode_api_url = "https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery"
@@ -121,11 +125,13 @@ jetbrains_api_url = "https://plugins.jetbrains.com/api/searchPlugins?excludeTags
 def del_old_file():
     if os.path.exists(vs_file_name):
         os.remove(vs_file_name)
+        print("old vscode file deleted")
     else:
         print(f"File not found: {vs_file_name}")
 
     if os.path.exists(jetbrains_file_name):
         os.remove(jetbrains_file_name)
+        print("old jetbrains file deleted")
     else:
         print(f"File not found: {jetbrains_file_name}")
 
@@ -140,7 +146,7 @@ def load_vscode_themes():
 
     # Send the POST request
     response = requests.post(vscode_api_url, headers=headers, data=json.dumps(payload))
-    d = [{}]
+    d = []
 
     # Check if the request was successful
     if response.status_code == 200:
@@ -148,7 +154,7 @@ def load_vscode_themes():
         data = response.json()
         # Extract and print the list of themes
         for extension in data["results"][0]["extensions"]:
-            print(f"Name: {extension['displayName']}, Publisher: {extension['publisher']['publisherName']}")
+            #print(f"Name: {extension['displayName']}, Publisher: {extension['publisher']['publisherName']}")
             d.append({
                 "id": extension.get("extensionId", ""),
                 "theme_name": extension.get("extensionName", ""),
@@ -166,6 +172,29 @@ def load_vscode_themes():
     with open(vs_file_name, "w") as f:
         json.dump(d, f, indent=4)
 
+github_base_url = "https://api.github.com"
+
+gh_username = os.getenv("GITHUB_USERNAME")
+gh_pac = os.getenv("GITHUB_PAC") # personal access token
+
+def add_vscode_preview_images():
+    # open file and go through each element in the list
+    with open(vs_file_name, "r") as f:
+        data = json.load(f) # parse json file into data
+
+    # iterate through each entry
+    for item in data:
+        if "theme_name" in item:
+            theme_name = item["theme_name"]
+
+            # get the first image from the README.md (hopefully this is a preview image)
+
+            # update the theme["preview_image"] key in array
+
+
+    # update the file
+    with open(vs_file_name, "w") as f:
+        json.dump(data,f,indent=4)
 
 def load_jetbrains_themes():
     # params = {
@@ -174,15 +203,16 @@ def load_jetbrains_themes():
     #    "max":50,
     # }
     response = requests.get(jetbrains_api_url)
-    dj = [{}]
+    dj = []
+    preview_image_base_url = "https://downloads.marketplace.jetbrains.com"
 
     if response.status_code == 200:
-        print(response.json())
+        #print(response.json())
         extensions = response.json().get("plugins",[])
         # print(extensions)
         for extension in extensions:
             author = extension.get("vendor", {})
-            print(extension)
+            #print(extension)
             dj.append({
                 "id": extension.get("id", ""),
                 "theme_name": extension.get("name", ""),
@@ -191,7 +221,7 @@ def load_jetbrains_themes():
                 "last_update": "",
                 "author": author.get("name"),
                 "publisherId": "",
-                "previewImage": extension.get("previewImage", ""),
+                "previewImage": preview_image_base_url + extension.get("previewImage", ""),
             })
     else:
         print_request_error(response)
@@ -201,6 +231,7 @@ def load_jetbrains_themes():
 
 
 load_vscode_themes()
+add_vscode_preview_images()
 print("vscode themes loaded")
 
 load_jetbrains_themes()
