@@ -87,7 +87,10 @@ import os.path
 
 import requests
 import json
+import time
 from dotenv import load_dotenv
+import base64
+import re
 
 # load .env file
 load_dotenv()
@@ -154,14 +157,17 @@ def load_vscode_themes():
         data = response.json()
         # Extract and print the list of themes
         for extension in data["results"][0]["extensions"]:
+            theme_publisher = extension["publisher"]["publisherName"]
+            theme_name = extension.get("extensionName", "")
             #print(f"Name: {extension['displayName']}, Publisher: {extension['publisher']['publisherName']}")
+            # vsoode auto install link: vscode:extension/publisher.theme-name
             d.append({
                 "id": extension.get("extensionId", ""),
-                "theme_name": extension.get("extensionName", ""),
+                "theme_name": theme_name,
                 "description": extension.get("shortDescription", ""),
-                "install_link": "",
+                "install_link": f"vscode:extension/{theme_publisher}.{theme_name}",
                 "last_update": extension.get("lastUpdated", ""),
-                "author": extension["publisher"]["publisherName"],
+                "author": theme_publisher,
                 "publisherId": extension["publisher"]["publisherId"],
                 "previewImage": "",
             })
@@ -172,11 +178,39 @@ def load_vscode_themes():
     with open(vs_file_name, "w") as f:
         json.dump(d, f, indent=4)
 
-github_base_url = "https://api.github.com"
+gh_search_url = "https://api.github.com/search/repositories"
 
 gh_username = os.getenv("GITHUB_USERNAME")
 gh_pac = os.getenv("GITHUB_PAC") # personal access token
 
+"""
+github response but shortened:
+{
+    "total_count":735900,
+    "incomplete_results":false,
+    "items":[
+        {
+            "id":21872392,
+            "node_id":"MDEwOlJlcG9zaXRvcnkyMTg3MjM5Mg==",
+            "name":"awesome-machine-learning",
+            "full_name":"josephmisiti/awesome-machine-learning",
+            "private":false,
+            "owner":{
+                "login":"josephmisiti",
+                "id":246302,
+                "node_id":"MDQ6VXNlcjI0NjMwMg==",
+                "avatar_url":"https://avatars.githubusercontent.com/u/246302?v=4",
+            },
+            "description":"A curated list of awesome Machine Learning frameworks, libraries and software.",
+            "created_at":"2014-07-15T19:11:19Z",
+            "updated_at":"2025-01-10T02:15:24Z",
+            "pushed_at":"2024-12-16T21:26:20Z",
+            "visibility":"public",
+            "forks":14723,
+            "open_issues":0,
+        }
+    ]
+}"""
 def add_vscode_preview_images():
     # open file and go through each element in the list
     with open(vs_file_name, "r") as f:
@@ -184,14 +218,100 @@ def add_vscode_preview_images():
 
     # iterate through each entry
     for item in data:
+        print("data len:", len(data))
         if "theme_name" in item:
             theme_name = item["theme_name"]
+            print(theme_name)
 
             # get the first image from the README.md (hopefully this is a preview image)
+            params = {
+                "q": theme_name,
+                "sort":"starts", # most popular
+                "order":"desc",
+                "per_page":1
+            }
+            
+            # headers used for auth
+            headers = {
+                "Authorization": f"Basic {gh_username}:{gh_pac}"
+            }
+            
+            response = requests.get(gh_search_url, params=params, headers=headers)
+            
+            # get rate limiting headers
+            rate_remaining = response.headers.get("X-RateLimit-Remaining") # requests remaining
+            rate_reset = int(response.headers.get("X-RateLimit-Reset")) # time in epoch seconds until reset
+            print(f"r_rem {rate_remaining} r_res {rate_reset}")
+            
+            # if there is only 1 request remaining, just wait until the reset
+            # from doc: If you exceed your primary rate limit, you will receive a 403 or 429
+            if rate_remaining == 1 or response.status_code == 403 or response.status_code == 429:
+                current_epoch = time.time()
+                time_to_wait = rate_reset - current_epoch
+                
+                if time_to_wait > 0:
+                    print(f"we have to wait {time_to_wait} epoch seconds...")
+                    time.sleep(time_to_wait)
+                    print("!!!continuing!!!")
+            
+            if response.status_code == 200:
+                repos = response.json().get("items")
+                
+                # get the first search result
+                if repos:
+                    repo = repos[0]                
+                    repo_name = repo["name"]
+                    owner = repo["owner"]["login"]
+                    
+                    # get readme content
+                    readme_url = f"https://api.github.com/repos/{owner}/{repo_name}/readme"
+                    readme_response = requests.get(readme_url, headers=headers)
+                    found = False # used to check if an img was found in the readme file
+                    if readme_response.status_code == 200:
+                        rdme_data = readme_response.json()
+                        content_base64 = rdme_data.get("content")
+                        if content_base64:
+                            readme_content_bytes = base64.b64decode(content_base64)
+                            readme_content = readme_content_bytes.decode("utf-8")
+                                                        
+                            ### extract the first img found ###
+                            # search for ![alt txt](img url)
+                            
+                            # exclude keywords like badge and only search for img endings
+                            img_pattern = r'!\[.*?\]\((?!.*badge.*)(.*?\.(?:png|jpe?g|gif|svg))\)' 
+                            match = re.search(img_pattern, readme_content, re.IGNORECASE)
+                            if match:
+                                first_img_url = match.group(1)
+                                found = True
+                            else:
+                                print("no image found for ![alt txt](img url), trying <img>....")
+                            
+                            # search for <img> html tag
+                            img_pattern = r'^<img[^>]*src=["\'](.*?)["\']'
+                            match = re.search(img_pattern, readme_content, re.IGNORECASE)
+                            if match:
+                                first_img_url = match.group(1)
+                                found = True
+                            else:
+                                print("no image found.... weird")
 
-            # update the theme["preview_image"] key in array
+                            # update the theme["preview_image"] key in array if something was found
+                            if found:
+                                item["previewImage"] = first_img_url
+                                print(f"FOUND! updated preview_image for {theme_name}")
+
+                    else:
+                        # unable to retrieve README.md from repo
+                        # non existant? (very weird) 
+                        d = readme_response.json()
+                        print("error while getting readme", d)
+            else:
+                # no repos returned from github search api with that exact name
+                d = response.json()
+                print("error while search for repo on github", d)
 
 
+    print(data[0])
     # update the file
     with open(vs_file_name, "w") as f:
         json.dump(data,f,indent=4)
@@ -212,12 +332,15 @@ def load_jetbrains_themes():
         # print(extensions)
         for extension in extensions:
             author = extension.get("vendor", {})
+            theme_name = extension.get("name","")
+            theme_id = extension.get("id","")
             #print(extension)
+            # jetbrains auto install link: jetbrains://plugins.jetbrains.com/plugin/12345
             dj.append({
-                "id": extension.get("id", ""),
-                "theme_name": extension.get("name", ""),
+                "id": theme_id,
+                "theme_name": theme_name,
                 "description": extension.get("preview", ""),
-                "install_link": extension.get("link", ""),
+                "install_link": f"jetbrains://plugins.jetbrains.com/{theme_name}/{theme_id}",
                 "last_update": "",
                 "author": author.get("name"),
                 "publisherId": "",
